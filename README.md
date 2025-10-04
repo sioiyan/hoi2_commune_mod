@@ -4,7 +4,7 @@
 
 =======
 ## 使用方法
-`commune_multi`内にある`misc.txt`を使って本来の`misc.txt`と差し替えてください。
+`misc.txt`を使って本来の`misc.txt`と差し替えてください。
 （本来の`misc.txt`はバックアップとっておいてください）
 
 
