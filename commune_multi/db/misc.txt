@@ -340,9 +340,9 @@ combat = {
 # Land Leader Command Limit (nr of divisions), Rank 1
 	9
 # Land Leader Command Limit (nr of divisions), Rank 2
-	3
+	6
 # Land Leader Command Limit (nr of divisions), Rank 3 (lowest)
-	1
+	3
 # Air Leader Command Limit (nr of divisions), Rank 0 (highest)
 	24 # 
 # Air Leader Command Limit (nr of divisions), Rank 1
@@ -374,7 +374,7 @@ combat = {
 # Delay in hours after a combat ends before new orders can be given.	
 	24
 # Maximum sizes of air-stacks
-	4
+	24
 # Duration in hours of Air-to-Air battles
 	4 #4
 # Duration in hours of Naval and Port bombing
@@ -1037,7 +1037,7 @@ research = {
 # Tech overview panel style: 0 - use old style; 1 - Use new style (unit and brigade models moved to new panels: "Units" and "Brigades")
 	0 #0
 # Max active tech teams at a time (cannot be more then 50). Note: New Technology page layout will be auto-set for values above 5!
-	5 #5
+	7 #5
 # Min active tech teams at a time (available teams regardless of current IC)
 	1 #1
 # Required IC for each tech team above the min
