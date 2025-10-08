@@ -1,0 +1,210 @@
+####################################
+# Minor AI Slider Events 12000 - XXXXXX by Lothos
+####################################
+################
+#	Free Market
+#############################################
+event = { # Free Market
+	id = 12000
+	random = no
+	persistent = yes
+	TAG = { ARA ARG ARM AST AUS BEL BLR BOL BOS BRA BUL CAL CAN CGX CHL COL CRO CSA CSX CZE DDR DEN DFR EST ETH FIN FLA GEO GRE GUA HOL HON HUN IDC INO ISR KOR LAO LAT LIT MAN MEN MEX MON NIC NOR NZL OTT PAK PAR PER POL POR PRI PRK PRU QUE ROM RSI RUS SAR SCA SCO SER SIA SIB SIK SLO SLV SPA SPR SWE TEX TRA TUR UKR VEN VIC VIE WLL YUG U01 U02 U03 U08 U09 U10 U11 U12 U13 U14 U15 U16 U17 U19 U20 U21 U22 U27 U28 U29 U30 U31 U32 U33 U34 U35 U49 U50 U51 U52 U53 U54 U55 U56 U57 U58 U59 U66 U67 U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 }
+
+	
+	trigger = {
+		ai = yes
+		OR = {
+			AND = {
+				can_change_policy = { type = free_market value = 1 }
+				government = democratic
+				}
+			AND = {
+				can_change_policy = { type = free_market value = -1 }
+				OR = {
+					government = fascist
+					government = communist
+				} 
+				
+			}
+		}	
+	}
+
+	name = "AI_EVENT"
+	style = 0
+
+	date = { day = 1 month = january year = 1910 }
+	offset = 60
+	deathdate = { day = 29 month = december year = 1999 }
+
+	action_a = {
+		trigger = { government = democratic  }
+		command = { type = change_policy which = free_market value = 1 }
+	}
+	
+	action_b = {
+		trigger = { NOT = {  government = democratic } }
+		command = { type = change_policy which = free_market value = -1 }
+	}
+}
+################
+#	Open Society
+#############################################
+event = { # Open Society
+	id = 12002
+	random = no
+	persistent = yes
+	TAG = { ARA ARG ARM AST AUS BEL BLR BOL BOS BRA BUL CAL CAN CGX CHL COL CRO CSA CSX CZE DDR DEN DFR EST ETH FIN FLA GEO GRE GUA HOL HON HUN IDC INO ISR KOR LAO LAT LIT MAN MEN MEX MON NIC NOR NZL OTT PAK PAR PER POL POR PRI PRK PRU QUE ROM RSI RUS SAR SCA SCO SER SIA SIB SIK SLO SLV SPA SPR SWE TEX TRA TUR UKR VEN VIC VIE WLL YUG U01 U02 U03 U08 U09 U10 U11 U12 U13 U14 U15 U16 U17 U19 U20 U21 U22 U27 U28 U29 U30 U31 U32 U33 U34 U35 U49 U50 U51 U52 U53 U54 U55 U56 U57 U58 U59 U66 U67 U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 }
+	
+	trigger = {
+		ai = yes
+		atwar = yes
+
+		OR = {
+			AND = {
+				can_change_policy = { type = freedom value = 1 }
+				government = democratic
+				}
+			AND = {
+				can_change_policy = { type = freedom value = -1 }
+				OR = {
+					government = fascist
+					government = communist
+				} 
+				
+			}
+		}
+	}
+
+	name = "AI_EVENT"
+	style = 0
+
+	date = { day = 1 month = january year = 1910 }
+	offset = 60
+	deathdate = { day = 29 month = december year = 1999 }
+
+	action_a = {
+		trigger = { government = democratic  }
+		command = { type = change_policy which = freedom value = 1 }
+	}
+	
+	action_b = {
+		trigger = { NOT = {  government = democratic } }
+		command = { type = change_policy which = freedom value = -1 }
+	}
+}
+
+################
+#	Hawk Lobby
+#############################################
+event = { # Hawk Lobby
+	id = 3000005
+	random = no
+	persistent = yes
+	TAG = { ARA ARG ARM AST AUS BEL BLR BOL BOS BRA BUL CAL CAN CGX CHL COL CRO CSA CSX CZE DDR DEN DFR EST ETH FIN FLA GEO GRE GUA HOL HON HUN IDC INO ISR KOR LAO LAT LIT MAN MEN MEX MON NIC NOR NZL OTT PAK PAR PER POL POR PRI PRK PRU QUE ROM RSI RUS SAR SCA SCO SER SIA SIB SIK SLO SLV SPA SPR SWE TEX TRA TUR UKR VEN VIC VIE WLL YUG U01 U02 U03 U08 U09 U10 U11 U12 U13 U14 U15 U16 U17 U19 U20 U21 U22 U27 U28 U29 U30 U31 U32 U33 U34 U35 U49 U50 U51 U52 U53 U54 U55 U56 U57 U58 U59 U66 U67 U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 }
+	
+	trigger = {
+		ai = yes
+		OR = {
+			AND = {
+				can_change_policy = { type = defense_lobby value = -1 }
+				government = democratic
+				}
+			AND = {
+				can_change_policy = { type = defense_lobby value = 1 }
+				OR = {
+					government = fascist
+					government = communist
+				} 
+				
+			}
+		}
+	}
+
+	name = "AI_EVENT"
+	style = 0
+
+	date = { day = 1 month = january year = 1910 }
+	offset = 60
+	deathdate = { day = 29 month = december year = 1999 }
+
+	action_a = {
+		trigger = { government = democratic  }
+		command = { type = change_policy which = defense_lobby value = -1 }
+	}
+	
+	action_b = {
+		trigger = { NOT = {  government = democratic } }
+		command = { type = change_policy which = defense_lobby value = 1 }
+	}
+}
+################
+#	Interventionism
+#############################################
+event = { # Interventionism
+	id = 3000007
+	random = no
+	persistent = yes
+	TAG = { ARA ARG ARM AST AUS BEL BLR BOL BOS BRA BUL CAL CAN CGX CHL COL CRO CSA CSX CZE DDR DEN DFR EST ETH FIN FLA GEO GRE GUA HOL HON HUN IDC INO ISR KOR LAO LAT LIT MAN MEN MEX MON NIC NOR NZL OTT PAK PAR PER POL POR PRI PRK PRU QUE ROM RSI RUS SAR SCA SCO SER SIA SIB SIK SLO SLV SPA SPR SWE TEX TRA TUR UKR VEN VIC VIE WLL YUG U01 U02 U03 U08 U09 U10 U11 U12 U13 U14 U15 U16 U17 U19 U20 U21 U22 U27 U28 U29 U30 U31 U32 U33 U34 U35 U49 U50 U51 U52 U53 U54 U55 U56 U57 U58 U59 U66 U67 U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 }
+
+	trigger = {
+		ai = yes
+		atwar = yes
+		can_change_policy = { type = interventionism value = 1 }
+	}
+
+	name = "AI_EVENT"
+	style = 0
+
+	date = { day = 1 month = january year = 1910 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1999 }
+
+	action_a = {
+		command = { type = change_policy which = interventionism value = 1 }
+	}
+}
+
+################
+#	Standing Army
+#############################################
+event = { # Standing Army
+	id = 12007
+	random = no
+	persistent = yes
+	TAG = { ARA ARG ARM AST AUS BEL BLR BOL BOS BRA BUL CAL CAN CGX CHL COL CRO CSA CSX CZE DDR DEN DFR EST ETH FIN FLA GEO GRE GUA HOL HON HUN IDC INO ISR KOR LAO LAT LIT MAN MEN MEX MON NIC NOR NZL OTT PAK PAR PER POL POR PRI PRK PRU QUE ROM RSI RUS SAR SCA SCO SER SIA SIB SIK SLO SLV SPA SPR SWE TEX TRA TUR UKR VEN VIC VIE WLL YUG U01 U02 U03 U08 U09 U10 U11 U12 U13 U14 U15 U16 U17 U19 U20 U21 U22 U27 U28 U29 U30 U31 U32 U33 U34 U35 U49 U50 U51 U52 U53 U54 U55 U56 U57 U58 U59 U66 U67 U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 }
+	
+	trigger = {
+		ai = yes
+		OR = {
+			AND = {
+				can_change_policy = { type = professional_army value = -1 }
+				government = democratic
+				}
+			AND = {
+				can_change_policy = { type = professional_army value = 1 }
+				OR = {
+					government = fascist
+					government = communist
+				} 
+				
+			}
+		}
+	}
+
+	name = "AI_EVENT"
+	style = 0
+
+	date = { day = 1 month = january year = 1910 }
+	offset = 60
+	deathdate = { day = 29 month = december year = 1999 }
+
+	action_a = {
+		trigger = { government = democratic  }
+		command = { type = change_policy which = professional_army value = -1 }
+	}
+	
+	action_b = {
+		trigger = { NOT = {  government = democratic } }
+		command = { type = change_policy which = professional_army value = 1 }
+	}
+}

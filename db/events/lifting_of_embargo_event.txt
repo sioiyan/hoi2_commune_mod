@@ -1,0 +1,506 @@
+# An event decision to lift the embargo and ban on technology exchange imposed by Germany on countries subject to embargo and technology exchange restrictions.
+event = {
+    id = 90000000
+    name = "lifting_of_embargo_name"
+    desc = "lifting_of_embargo_desc"
+    style = 2    
+    picture = "Wehrmacht"
+    decision_picture = "decision_grand_offensive"
+
+    random = no
+    TAG = { 
+        AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU USA UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 U12 U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U40 U41 U42 U43 U44 U45 U46 U47 U48 U49 U50 U51 U52 U53 U54 U55 U56 U67 U69 UTC UER UPE U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 
+    }
+    save_date = yes
+    persistent = yes
+
+    decision = {
+        ai = no
+        OR = {
+            OR = { embargo = { country = -1 country = AFG value = 1 } embargo = { country = -1 country = AFG value = 2 } }
+            OR = { embargo = { country = -1 country = ALB value = 1 } embargo = { country = -1 country = ALB value = 2 } }
+            OR = { embargo = { country = -1 country = ALG value = 1 } embargo = { country = -1 country = ALG value = 2 } }
+            OR = { embargo = { country = -1 country = ANG value = 1 } embargo = { country = -1 country = ANG value = 2 } }
+            OR = { embargo = { country = -1 country = ARA value = 1 } embargo = { country = -1 country = ARA value = 2 } }
+            OR = { embargo = { country = -1 country = ARG value = 1 } embargo = { country = -1 country = ARG value = 2 } }
+            OR = { embargo = { country = -1 country = ARM value = 1 } embargo = { country = -1 country = ARM value = 2 } }
+            OR = { embargo = { country = -1 country = AST value = 1 } embargo = { country = -1 country = AST value = 2 } }
+            OR = { embargo = { country = -1 country = AUS value = 1 } embargo = { country = -1 country = AUS value = 2 } }
+            OR = { embargo = { country = -1 country = AZB value = 1 } embargo = { country = -1 country = AZB value = 2 } }
+            OR = { embargo = { country = -1 country = BEL value = 1 } embargo = { country = -1 country = BEL value = 2 } }
+            OR = { embargo = { country = -1 country = BEN value = 1 } embargo = { country = -1 country = BEN value = 2 } }
+            OR = { embargo = { country = -1 country = BLR value = 1 } embargo = { country = -1 country = BLR value = 2 } }
+            OR = { embargo = { country = -1 country = BOL value = 1 } embargo = { country = -1 country = BOL value = 2 } }
+            OR = { embargo = { country = -1 country = BOS value = 1 } embargo = { country = -1 country = BOS value = 2 } }
+            OR = { embargo = { country = -1 country = BRA value = 1 } embargo = { country = -1 country = BRA value = 2 } }
+            OR = { embargo = { country = -1 country = BRU value = 1 } embargo = { country = -1 country = BRU value = 2 } }
+            OR = { embargo = { country = -1 country = BUL value = 1 } embargo = { country = -1 country = BUL value = 2 } }
+            OR = { embargo = { country = -1 country = BUR value = 1 } embargo = { country = -1 country = BUR value = 2 } }
+            OR = { embargo = { country = -1 country = CAL value = 1 } embargo = { country = -1 country = CAL value = 2 } }
+            OR = { embargo = { country = -1 country = CAM value = 1 } embargo = { country = -1 country = CAM value = 2 } }
+            OR = { embargo = { country = -1 country = CAN value = 1 } embargo = { country = -1 country = CAN value = 2 } }
+            OR = { embargo = { country = -1 country = CGX value = 1 } embargo = { country = -1 country = CGX value = 2 } }
+            OR = { embargo = { country = -1 country = CHC value = 1 } embargo = { country = -1 country = CHC value = 2 } }
+            OR = { embargo = { country = -1 country = CHI value = 1 } embargo = { country = -1 country = CHI value = 2 } }
+            OR = { embargo = { country = -1 country = CHL value = 1 } embargo = { country = -1 country = CHL value = 2 } }
+            OR = { embargo = { country = -1 country = CMB value = 1 } embargo = { country = -1 country = CMB value = 2 } }
+            OR = { embargo = { country = -1 country = COL value = 1 } embargo = { country = -1 country = COL value = 2 } }
+            OR = { embargo = { country = -1 country = CON value = 1 } embargo = { country = -1 country = CON value = 2 } }
+            OR = { embargo = { country = -1 country = COS value = 1 } embargo = { country = -1 country = COS value = 2 } }
+            OR = { embargo = { country = -1 country = CRO value = 1 } embargo = { country = -1 country = CRO value = 2 } }
+            OR = { embargo = { country = -1 country = CSA value = 1 } embargo = { country = -1 country = CSA value = 2 } }
+            OR = { embargo = { country = -1 country = CSX value = 1 } embargo = { country = -1 country = CSX value = 2 } }
+            OR = { embargo = { country = -1 country = CUB value = 1 } embargo = { country = -1 country = CUB value = 2 } }
+            OR = { embargo = { country = -1 country = CXB value = 1 } embargo = { country = -1 country = CXB value = 2 } }
+            OR = { embargo = { country = -1 country = CYN value = 1 } embargo = { country = -1 country = CYN value = 2 } }
+            OR = { embargo = { country = -1 country = CYP value = 1 } embargo = { country = -1 country = CYP value = 2 } }
+            OR = { embargo = { country = -1 country = CZE value = 1 } embargo = { country = -1 country = CZE value = 2 } }
+            OR = { embargo = { country = -1 country = DDR value = 1 } embargo = { country = -1 country = DDR value = 2 } }
+            OR = { embargo = { country = -1 country = DEN value = 1 } embargo = { country = -1 country = DEN value = 2 } }
+            OR = { embargo = { country = -1 country = DFR value = 1 } embargo = { country = -1 country = DFR value = 2 } }
+            OR = { embargo = { country = -1 country = EAF value = 1 } embargo = { country = -1 country = EAF value = 2 } }
+            OR = { embargo = { country = -1 country = ECU value = 1 } embargo = { country = -1 country = ECU value = 2 } }
+            OR = { embargo = { country = -1 country = EGY value = 1 } embargo = { country = -1 country = EGY value = 2 } }
+            OR = { embargo = { country = -1 country = ENG value = 1 } embargo = { country = -1 country = ENG value = 2 } }
+            OR = { embargo = { country = -1 country = EQA value = 1 } embargo = { country = -1 country = EQA value = 2 } }
+            OR = { embargo = { country = -1 country = EST value = 1 } embargo = { country = -1 country = EST value = 2 } }
+            OR = { embargo = { country = -1 country = ETH value = 1 } embargo = { country = -1 country = ETH value = 2 } }
+            OR = { embargo = { country = -1 country = EUS value = 1 } embargo = { country = -1 country = EUS value = 2 } }
+            OR = { embargo = { country = -1 country = FIN value = 1 } embargo = { country = -1 country = FIN value = 2 } }
+            OR = { embargo = { country = -1 country = FLA value = 1 } embargo = { country = -1 country = FLA value = 2 } }
+            OR = { embargo = { country = -1 country = FRA value = 1 } embargo = { country = -1 country = FRA value = 2 } }
+            OR = { embargo = { country = -1 country = GAB value = 1 } embargo = { country = -1 country = GAB value = 2 } }
+            OR = { embargo = { country = -1 country = GEO value = 1 } embargo = { country = -1 country = GEO value = 2 } }
+            OR = { embargo = { country = -1 country = GER value = 1 } embargo = { country = -1 country = GER value = 2 } }
+            OR = { embargo = { country = -1 country = GLD value = 1 } embargo = { country = -1 country = GLD value = 2 } }
+            OR = { embargo = { country = -1 country = GRE value = 1 } embargo = { country = -1 country = GRE value = 2 } }
+            OR = { embargo = { country = -1 country = GUA value = 1 } embargo = { country = -1 country = GUA value = 2 } }
+            OR = { embargo = { country = -1 country = GUI value = 1 } embargo = { country = -1 country = GUI value = 2 } }
+            OR = { embargo = { country = -1 country = GUY value = 1 } embargo = { country = -1 country = GUY value = 2 } }
+            OR = { embargo = { country = -1 country = HOL value = 1 } embargo = { country = -1 country = HOL value = 2 } }
+            OR = { embargo = { country = -1 country = HON value = 1 } embargo = { country = -1 country = HON value = 2 } }
+            OR = { embargo = { country = -1 country = HUN value = 1 } embargo = { country = -1 country = HUN value = 2 } }
+            OR = { embargo = { country = -1 country = ICL value = 1 } embargo = { country = -1 country = ICL value = 2 } }
+            OR = { embargo = { country = -1 country = IDC value = 1 } embargo = { country = -1 country = IDC value = 2 } }
+            OR = { embargo = { country = -1 country = IND value = 1 } embargo = { country = -1 country = IND value = 2 } }
+            OR = { embargo = { country = -1 country = INO value = 1 } embargo = { country = -1 country = INO value = 2 } }
+            OR = { embargo = { country = -1 country = IRE value = 1 } embargo = { country = -1 country = IRE value = 2 } }
+            OR = { embargo = { country = -1 country = IRQ value = 1 } embargo = { country = -1 country = IRQ value = 2 } }
+            OR = { embargo = { country = -1 country = ISR value = 1 } embargo = { country = -1 country = ISR value = 2 } }
+            OR = { embargo = { country = -1 country = ITA value = 1 } embargo = { country = -1 country = ITA value = 2 } }
+            OR = { embargo = { country = -1 country = JAP value = 1 } embargo = { country = -1 country = JAP value = 2 } }
+            OR = { embargo = { country = -1 country = JOR value = 1 } embargo = { country = -1 country = JOR value = 2 } }
+            OR = { embargo = { country = -1 country = KAZ value = 1 } embargo = { country = -1 country = KAZ value = 2 } }
+            OR = { embargo = { country = -1 country = KOR value = 1 } embargo = { country = -1 country = KOR value = 2 } }
+            OR = { embargo = { country = -1 country = KUR value = 1 } embargo = { country = -1 country = KUR value = 2 } }
+            OR = { embargo = { country = -1 country = KYG value = 1 } embargo = { country = -1 country = KYG value = 2 } }
+            OR = { embargo = { country = -1 country = LAO value = 1 } embargo = { country = -1 country = LAO value = 2 } }
+            OR = { embargo = { country = -1 country = LAT value = 1 } embargo = { country = -1 country = LAT value = 2 } }
+            OR = { embargo = { country = -1 country = LBY value = 1 } embargo = { country = -1 country = LBY value = 2 } }
+            OR = { embargo = { country = -1 country = LEB value = 1 } embargo = { country = -1 country = LEB value = 2 } }
+            OR = { embargo = { country = -1 country = LIT value = 1 } embargo = { country = -1 country = LIT value = 2 } }
+            OR = { embargo = { country = -1 country = LUX value = 1 } embargo = { country = -1 country = LUX value = 2 } }
+            OR = { embargo = { country = -1 country = MAD value = 1 } embargo = { country = -1 country = MAD value = 2 } }
+            OR = { embargo = { country = -1 country = MAL value = 1 } embargo = { country = -1 country = MAL value = 2 } }
+            OR = { embargo = { country = -1 country = MAN value = 1 } embargo = { country = -1 country = MAN value = 2 } }
+            OR = { embargo = { country = -1 country = MEN value = 1 } embargo = { country = -1 country = MEN value = 2 } }
+            OR = { embargo = { country = -1 country = MEX value = 1 } embargo = { country = -1 country = MEX value = 2 } }
+            OR = { embargo = { country = -1 country = MLY value = 1 } embargo = { country = -1 country = MLY value = 2 } }
+            OR = { embargo = { country = -1 country = MON value = 1 } embargo = { country = -1 country = MON value = 2 } }
+            OR = { embargo = { country = -1 country = MOR value = 1 } embargo = { country = -1 country = MOR value = 2 } }
+            OR = { embargo = { country = -1 country = MOZ value = 1 } embargo = { country = -1 country = MOZ value = 2 } }
+            OR = { embargo = { country = -1 country = MTN value = 1 } embargo = { country = -1 country = MTN value = 2 } }
+            OR = { embargo = { country = -1 country = NAM value = 1 } embargo = { country = -1 country = NAM value = 2 } }
+            OR = { embargo = { country = -1 country = NIC value = 1 } embargo = { country = -1 country = NIC value = 2 } }
+            OR = { embargo = { country = -1 country = NIG value = 1 } embargo = { country = -1 country = NIG value = 2 } }
+            OR = { embargo = { country = -1 country = NOR value = 1 } embargo = { country = -1 country = NOR value = 2 } }
+            OR = { embargo = { country = -1 country = NZL value = 1 } embargo = { country = -1 country = NZL value = 2 } }
+            OR = { embargo = { country = -1 country = OMN value = 1 } embargo = { country = -1 country = OMN value = 2 } }
+            OR = { embargo = { country = -1 country = OTT value = 1 } embargo = { country = -1 country = OTT value = 2 } }
+            OR = { embargo = { country = -1 country = PAK value = 1 } embargo = { country = -1 country = PAK value = 2 } }
+            OR = { embargo = { country = -1 country = PAL value = 1 } embargo = { country = -1 country = PAL value = 2 } }
+            OR = { embargo = { country = -1 country = PAN value = 1 } embargo = { country = -1 country = PAN value = 2 } }
+            OR = { embargo = { country = -1 country = PAR value = 1 } embargo = { country = -1 country = PAR value = 2 } }
+            OR = { embargo = { country = -1 country = PER value = 1 } embargo = { country = -1 country = PER value = 2 } }
+            OR = { embargo = { country = -1 country = PHI value = 1 } embargo = { country = -1 country = PHI value = 2 } }
+            OR = { embargo = { country = -1 country = POL value = 1 } embargo = { country = -1 country = POL value = 2 } }
+            OR = { embargo = { country = -1 country = POR value = 1 } embargo = { country = -1 country = POR value = 2 } }
+            OR = { embargo = { country = -1 country = PRI value = 1 } embargo = { country = -1 country = PRI value = 2 } }
+            OR = { embargo = { country = -1 country = PRK value = 1 } embargo = { country = -1 country = PRK value = 2 } }
+            OR = { embargo = { country = -1 country = PRU value = 1 } embargo = { country = -1 country = PRU value = 2 } }
+            OR = { embargo = { country = -1 country = QUE value = 1 } embargo = { country = -1 country = QUE value = 2 } }
+            OR = { embargo = { country = -1 country = RHO value = 1 } embargo = { country = -1 country = RHO value = 2 } }
+            OR = { embargo = { country = -1 country = ROM value = 1 } embargo = { country = -1 country = ROM value = 2 } }
+            OR = { embargo = { country = -1 country = RSI value = 1 } embargo = { country = -1 country = RSI value = 2 } }
+            OR = { embargo = { country = -1 country = RUS value = 1 } embargo = { country = -1 country = RUS value = 2 } }
+            OR = { embargo = { country = -1 country = SAF value = 1 } embargo = { country = -1 country = SAF value = 2 } }
+            OR = { embargo = { country = -1 country = SAL value = 1 } embargo = { country = -1 country = SAL value = 2 } }
+            OR = { embargo = { country = -1 country = SAR value = 1 } embargo = { country = -1 country = SAR value = 2 } }
+            OR = { embargo = { country = -1 country = SAU value = 1 } embargo = { country = -1 country = SAU value = 2 } }
+            OR = { embargo = { country = -1 country = SCA value = 1 } embargo = { country = -1 country = SCA value = 2 } }
+            OR = { embargo = { country = -1 country = SCH value = 1 } embargo = { country = -1 country = SCH value = 2 } }
+            OR = { embargo = { country = -1 country = SCO value = 1 } embargo = { country = -1 country = SCO value = 2 } }
+            OR = { embargo = { country = -1 country = SER value = 1 } embargo = { country = -1 country = SER value = 2 } }
+            OR = { embargo = { country = -1 country = SIA value = 1 } embargo = { country = -1 country = SIA value = 2 } }
+            OR = { embargo = { country = -1 country = SIB value = 1 } embargo = { country = -1 country = SIB value = 2 } }
+            OR = { embargo = { country = -1 country = SIE value = 1 } embargo = { country = -1 country = SIE value = 2 } }
+            OR = { embargo = { country = -1 country = SIK value = 1 } embargo = { country = -1 country = SIK value = 2 } }
+            OR = { embargo = { country = -1 country = SLO value = 1 } embargo = { country = -1 country = SLO value = 2 } }
+            OR = { embargo = { country = -1 country = SLV value = 1 } embargo = { country = -1 country = SLV value = 2 } }
+            OR = { embargo = { country = -1 country = SOM value = 1 } embargo = { country = -1 country = SOM value = 2 } }
+            OR = { embargo = { country = -1 country = SOV value = 1 } embargo = { country = -1 country = SOV value = 2 } }
+            OR = { embargo = { country = -1 country = SPA value = 1 } embargo = { country = -1 country = SPA value = 2 } }
+            OR = { embargo = { country = -1 country = SPR value = 1 } embargo = { country = -1 country = SPR value = 2 } }
+            OR = { embargo = { country = -1 country = SUD value = 1 } embargo = { country = -1 country = SUD value = 2 } }
+            OR = { embargo = { country = -1 country = SWE value = 1 } embargo = { country = -1 country = SWE value = 2 } }
+            OR = { embargo = { country = -1 country = SYR value = 1 } embargo = { country = -1 country = SYR value = 2 } }
+            OR = { embargo = { country = -1 country = TAJ value = 1 } embargo = { country = -1 country = TAJ value = 2 } }
+            OR = { embargo = { country = -1 country = TAN value = 1 } embargo = { country = -1 country = TAN value = 2 } }
+            OR = { embargo = { country = -1 country = TEX value = 1 } embargo = { country = -1 country = TEX value = 2 } }
+            OR = { embargo = { country = -1 country = TRA value = 1 } embargo = { country = -1 country = TRA value = 2 } }
+            OR = { embargo = { country = -1 country = TRK value = 1 } embargo = { country = -1 country = TRK value = 2 } }
+            OR = { embargo = { country = -1 country = TUN value = 1 } embargo = { country = -1 country = TUN value = 2 } }
+            OR = { embargo = { country = -1 country = TUR value = 1 } embargo = { country = -1 country = TUR value = 2 } }
+            OR = { embargo = { country = -1 country = UKR value = 1 } embargo = { country = -1 country = UKR value = 2 } }
+            OR = { embargo = { country = -1 country = URU value = 1 } embargo = { country = -1 country = URU value = 2 } }
+            OR = { embargo = { country = -1 country = USA value = 1 } embargo = { country = -1 country = USA value = 2 } }
+            OR = { embargo = { country = -1 country = UZB value = 1 } embargo = { country = -1 country = UZB value = 2 } }
+            OR = { embargo = { country = -1 country = VEN value = 1 } embargo = { country = -1 country = VEN value = 2 } }
+            OR = { embargo = { country = -1 country = VIE value = 1 } embargo = { country = -1 country = VIE value = 2 } }
+            OR = { embargo = { country = -1 country = WLL value = 1 } embargo = { country = -1 country = WLL value = 2 } }
+            OR = { embargo = { country = -1 country = YEM value = 1 } embargo = { country = -1 country = YEM value = 2 } }
+            OR = { embargo = { country = -1 country = YUG value = 1 } embargo = { country = -1 country = YUG value = 2 } }
+            OR = { embargo = { country = -1 country = U01 value = 1 } embargo = { country = -1 country = U01 value = 2 } }
+            OR = { embargo = { country = -1 country = U02 value = 1 } embargo = { country = -1 country = U02 value = 2 } }
+            OR = { embargo = { country = -1 country = U03 value = 1 } embargo = { country = -1 country = U03 value = 2 } }
+            OR = { embargo = { country = -1 country = U04 value = 1 } embargo = { country = -1 country = U04 value = 2 } }
+            OR = { embargo = { country = -1 country = U08 value = 1 } embargo = { country = -1 country = U08 value = 2 } }
+            OR = { embargo = { country = -1 country = U09 value = 1 } embargo = { country = -1 country = U09 value = 2 } }
+            OR = { embargo = { country = -1 country = U10 value = 1 } embargo = { country = -1 country = U10 value = 2 } }
+            OR = { embargo = { country = -1 country = U11 value = 1 } embargo = { country = -1 country = U11 value = 2 } }
+            OR = { embargo = { country = -1 country = U12 value = 1 } embargo = { country = -1 country = U12 value = 2 } }
+            OR = { embargo = { country = -1 country = U13 value = 1 } embargo = { country = -1 country = U13 value = 2 } }
+            OR = { embargo = { country = -1 country = U14 value = 1 } embargo = { country = -1 country = U14 value = 2 } }
+            OR = { embargo = { country = -1 country = U15 value = 1 } embargo = { country = -1 country = U15 value = 2 } }
+            OR = { embargo = { country = -1 country = U16 value = 1 } embargo = { country = -1 country = U16 value = 2 } }
+            OR = { embargo = { country = -1 country = U17 value = 1 } embargo = { country = -1 country = U17 value = 2 } }
+            OR = { embargo = { country = -1 country = U18 value = 1 } embargo = { country = -1 country = U18 value = 2 } }
+            OR = { embargo = { country = -1 country = U19 value = 1 } embargo = { country = -1 country = U19 value = 2 } }
+            OR = { embargo = { country = -1 country = U20 value = 1 } embargo = { country = -1 country = U20 value = 2 } }
+            OR = { embargo = { country = -1 country = U21 value = 1 } embargo = { country = -1 country = U21 value = 2 } }
+            OR = { embargo = { country = -1 country = U22 value = 1 } embargo = { country = -1 country = U22 value = 2 } }
+            OR = { embargo = { country = -1 country = U26 value = 1 } embargo = { country = -1 country = U26 value = 2 } }
+            OR = { embargo = { country = -1 country = U27 value = 1 } embargo = { country = -1 country = U27 value = 2 } }
+            OR = { embargo = { country = -1 country = U28 value = 1 } embargo = { country = -1 country = U28 value = 2 } }
+            OR = { embargo = { country = -1 country = U29 value = 1 } embargo = { country = -1 country = U29 value = 2 } }
+            OR = { embargo = { country = -1 country = U30 value = 1 } embargo = { country = -1 country = U30 value = 2 } }
+            OR = { embargo = { country = -1 country = U31 value = 1 } embargo = { country = -1 country = U31 value = 2 } }
+            OR = { embargo = { country = -1 country = U32 value = 1 } embargo = { country = -1 country = U32 value = 2 } }
+            OR = { embargo = { country = -1 country = U33 value = 1 } embargo = { country = -1 country = U33 value = 2 } }
+            OR = { embargo = { country = -1 country = U34 value = 1 } embargo = { country = -1 country = U34 value = 2 } }
+            OR = { embargo = { country = -1 country = U35 value = 1 } embargo = { country = -1 country = U35 value = 2 } }
+            OR = { embargo = { country = -1 country = U40 value = 1 } embargo = { country = -1 country = U40 value = 2 } }
+            OR = { embargo = { country = -1 country = U41 value = 1 } embargo = { country = -1 country = U41 value = 2 } }
+            OR = { embargo = { country = -1 country = U42 value = 1 } embargo = { country = -1 country = U42 value = 2 } }
+            OR = { embargo = { country = -1 country = U43 value = 1 } embargo = { country = -1 country = U43 value = 2 } }
+            OR = { embargo = { country = -1 country = U44 value = 1 } embargo = { country = -1 country = U44 value = 2 } }
+            OR = { embargo = { country = -1 country = U45 value = 1 } embargo = { country = -1 country = U45 value = 2 } }
+            OR = { embargo = { country = -1 country = U46 value = 1 } embargo = { country = -1 country = U46 value = 2 } }
+            OR = { embargo = { country = -1 country = U47 value = 1 } embargo = { country = -1 country = U47 value = 2 } }
+            OR = { embargo = { country = -1 country = U48 value = 1 } embargo = { country = -1 country = U48 value = 2 } }
+            OR = { embargo = { country = -1 country = U49 value = 1 } embargo = { country = -1 country = U49 value = 2 } }
+            OR = { embargo = { country = -1 country = U50 value = 1 } embargo = { country = -1 country = U50 value = 2 } }
+            OR = { embargo = { country = -1 country = U51 value = 1 } embargo = { country = -1 country = U51 value = 2 } }
+            OR = { embargo = { country = -1 country = U52 value = 1 } embargo = { country = -1 country = U52 value = 2 } }
+            OR = { embargo = { country = -1 country = U53 value = 1 } embargo = { country = -1 country = U53 value = 2 } }
+            OR = { embargo = { country = -1 country = U54 value = 1 } embargo = { country = -1 country = U54 value = 2 } }
+            OR = { embargo = { country = -1 country = U55 value = 1 } embargo = { country = -1 country = U55 value = 2 } }
+            OR = { embargo = { country = -1 country = U56 value = 1 } embargo = { country = -1 country = U56 value = 2 } }
+            OR = { embargo = { country = -1 country = U67 value = 1 } embargo = { country = -1 country = U67 value = 2 } }
+            OR = { embargo = { country = -1 country = U69 value = 1 } embargo = { country = -1 country = U69 value = 2 } }
+            OR = { embargo = { country = -1 country = UTC value = 1 } embargo = { country = -1 country = UTC value = 2 } }
+            OR = { embargo = { country = -1 country = UER value = 1 } embargo = { country = -1 country = UER value = 2 } }
+            OR = { embargo = { country = -1 country = UPE value = 1 } embargo = { country = -1 country = UPE value = 2 } }
+            OR = { embargo = { country = -1 country = U70 value = 1 } embargo = { country = -1 country = U70 value = 2 } }
+            OR = { embargo = { country = -1 country = U71 value = 1 } embargo = { country = -1 country = U71 value = 2 } }
+            OR = { embargo = { country = -1 country = U72 value = 1 } embargo = { country = -1 country = U72 value = 2 } }
+            OR = { embargo = { country = -1 country = U73 value = 1 } embargo = { country = -1 country = U73 value = 2 } }
+            OR = { embargo = { country = -1 country = U74 value = 1 } embargo = { country = -1 country = U74 value = 2 } }
+            OR = { embargo = { country = -1 country = U75 value = 1 } embargo = { country = -1 country = U75 value = 2 } }
+            OR = { embargo = { country = -1 country = U76 value = 1 } embargo = { country = -1 country = U76 value = 2 } }
+            OR = { embargo = { country = -1 country = U77 value = 1 } embargo = { country = -1 country = U77 value = 2 } }
+            OR = { embargo = { country = -1 country = U78 value = 1 } embargo = { country = -1 country = U78 value = 2 } }
+            OR = { embargo = { country = -1 country = U79 value = 1 } embargo = { country = -1 country = U79 value = 2 } }
+            OR = { embargo = { country = -1 country = U80 value = 1 } embargo = { country = -1 country = U80 value = 2 } }
+            OR = { embargo = { country = -1 country = U81 value = 1 } embargo = { country = -1 country = U81 value = 2 } }
+            OR = { embargo = { country = -1 country = U82 value = 1 } embargo = { country = -1 country = U82 value = 2 } }
+            OR = { embargo = { country = -1 country = U83 value = 1 } embargo = { country = -1 country = U83 value = 2 } }
+            OR = { embargo = { country = -1 country = U84 value = 1 } embargo = { country = -1 country = U84 value = 2 } }
+            OR = { embargo = { country = -1 country = U85 value = 1 } embargo = { country = -1 country = U85 value = 2 } }
+            OR = { embargo = { country = -1 country = U86 value = 1 } embargo = { country = -1 country = U86 value = 2 } }
+            OR = { embargo = { country = -1 country = U87 value = 1 } embargo = { country = -1 country = U87 value = 2 } }
+            OR = { embargo = { country = -1 country = U88 value = 1 } embargo = { country = -1 country = U88 value = 2 } }
+            OR = { embargo = { country = -1 country = U89 value = 1 } embargo = { country = -1 country = U89 value = 2 } }
+            OR = { embargo = { country = -1 country = U90 value = 1 } embargo = { country = -1 country = U90 value = 2 } }
+            OR = { embargo = { country = -1 country = U91 value = 1 } embargo = { country = -1 country = U91 value = 2 } }
+            OR = { embargo = { country = -1 country = U92 value = 1 } embargo = { country = -1 country = U92 value = 2 } }
+            OR = { embargo = { country = -1 country = U93 value = 1 } embargo = { country = -1 country = U93 value = 2 } }
+            OR = { embargo = { country = -1 country = U94 value = 1 } embargo = { country = -1 country = U94 value = 2 } }
+            OR = { embargo = { country = -1 country = U95 value = 1 } embargo = { country = -1 country = U95 value = 2 } }
+            OR = { embargo = { country = -1 country = U96 value = 1 } embargo = { country = -1 country = U96 value = 2 } }
+            OR = { embargo = { country = -1 country = U97 value = 1 } embargo = { country = -1 country = U97 value = 2 } }
+            OR = { embargo = { country = -1 country = U98 value = 1 } embargo = { country = -1 country = U98 value = 2 } }
+            OR = { embargo = { country = -1 country = U99 value = 1 } embargo = { country = -1 country = U99 value = 2 } }
+        }
+    }
+    decision_trigger = {
+        ai = no
+    }
+    trigger = {
+        ai = no
+    }
+
+    date = { day = 0 month = january year = 1914 }
+    offset = 365
+    deathdate = { day = 29 month = december year = 1963 }
+
+    # Initially, technology exchange is prohibited.
+    action = { name = "lifting_of_embargo_action_afg" command = { trigger = { OR = { embargo = { country = -1 country = AFG value = 1 } embargo = { country = -1 country = AFG value = 2 } } } type = embargo which = -1 where = AFG value = 0 } }
+    action = { name = "lifting_of_embargo_action_alb" command = { trigger = { OR = { embargo = { country = -1 country = ALB value = 1 } embargo = { country = -1 country = ALB value = 2 } } } type = embargo which = -1 where = ALB value = 0 } }
+    action = { name = "lifting_of_embargo_action_alg" command = { trigger = { OR = { embargo = { country = -1 country = ALG value = 1 } embargo = { country = -1 country = ALG value = 2 } } } type = embargo which = -1 where = ALG value = 0 } }
+    action = { name = "lifting_of_embargo_action_ang" command = { trigger = { OR = { embargo = { country = -1 country = ANG value = 1 } embargo = { country = -1 country = ANG value = 2 } } } type = embargo which = -1 where = ANG value = 0 } }
+    action = { name = "lifting_of_embargo_action_ara" command = { trigger = { OR = { embargo = { country = -1 country = ARA value = 1 } embargo = { country = -1 country = ARA value = 2 } } } type = embargo which = -1 where = ARA value = 0 } }
+    action = { name = "lifting_of_embargo_action_arg" command = { trigger = { OR = { embargo = { country = -1 country = ARG value = 1 } embargo = { country = -1 country = ARG value = 2 } } } type = embargo which = -1 where = ARG value = 0 } }
+    action = { name = "lifting_of_embargo_action_arm" command = { trigger = { OR = { embargo = { country = -1 country = ARM value = 1 } embargo = { country = -1 country = ARM value = 2 } } } type = embargo which = -1 where = ARM value = 0 } }
+    action = { name = "lifting_of_embargo_action_ast" command = { trigger = { OR = { embargo = { country = -1 country = AST value = 1 } embargo = { country = -1 country = AST value = 2 } } } type = embargo which = -1 where = AST value = 0 } }
+    action = { name = "lifting_of_embargo_action_aus" command = { trigger = { OR = { embargo = { country = -1 country = AUS value = 1 } embargo = { country = -1 country = AUS value = 2 } } } type = embargo which = -1 where = AUS value = 0 } }
+    action = { name = "lifting_of_embargo_action_azb" command = { trigger = { OR = { embargo = { country = -1 country = AZB value = 1 } embargo = { country = -1 country = AZB value = 2 } } } type = embargo which = -1 where = AZB value = 0 } }
+    action = { name = "lifting_of_embargo_action_bel" command = { trigger = { OR = { embargo = { country = -1 country = BEL value = 1 } embargo = { country = -1 country = BEL value = 2 } } } type = embargo which = -1 where = BEL value = 0 } }
+    action = { name = "lifting_of_embargo_action_ben" command = { trigger = { OR = { embargo = { country = -1 country = BEN value = 1 } embargo = { country = -1 country = BEN value = 2 } } } type = embargo which = -1 where = BEN value = 0 } }
+    action = { name = "lifting_of_embargo_action_blr" command = { trigger = { OR = { embargo = { country = -1 country = BLR value = 1 } embargo = { country = -1 country = BLR value = 2 } } } type = embargo which = -1 where = BLR value = 0 } }
+    action = { name = "lifting_of_embargo_action_bol" command = { trigger = { OR = { embargo = { country = -1 country = BOL value = 1 } embargo = { country = -1 country = BOL value = 2 } } } type = embargo which = -1 where = BOL value = 0 } }
+    action = { name = "lifting_of_embargo_action_bos" command = { trigger = { OR = { embargo = { country = -1 country = BOS value = 1 } embargo = { country = -1 country = BOS value = 2 } } } type = embargo which = -1 where = BOS value = 0 } }
+    action = { name = "lifting_of_embargo_action_bra" command = { trigger = { OR = { embargo = { country = -1 country = BRA value = 1 } embargo = { country = -1 country = BRA value = 2 } } } type = embargo which = -1 where = BRA value = 0 } }
+    action = { name = "lifting_of_embargo_action_bru" command = { trigger = { OR = { embargo = { country = -1 country = BRU value = 1 } embargo = { country = -1 country = BRU value = 2 } } } type = embargo which = -1 where = BRU value = 0 } }
+    action = { name = "lifting_of_embargo_action_bul" command = { trigger = { OR = { embargo = { country = -1 country = BUL value = 1 } embargo = { country = -1 country = BUL value = 2 } } } type = embargo which = -1 where = BUL value = 0 } }
+    action = { name = "lifting_of_embargo_action_bur" command = { trigger = { OR = { embargo = { country = -1 country = BUR value = 1 } embargo = { country = -1 country = BUR value = 2 } } } type = embargo which = -1 where = BUR value = 0 } }
+    action = { name = "lifting_of_embargo_action_cal" command = { trigger = { OR = { embargo = { country = -1 country = CAL value = 1 } embargo = { country = -1 country = CAL value = 2 } } } type = embargo which = -1 where = CAL value = 0 } }
+    action = { name = "lifting_of_embargo_action_cam" command = { trigger = { OR = { embargo = { country = -1 country = CAM value = 1 } embargo = { country = -1 country = CAM value = 2 } } } type = embargo which = -1 where = CAM value = 0 } }
+    action = { name = "lifting_of_embargo_action_can" command = { trigger = { OR = { embargo = { country = -1 country = CAN value = 1 } embargo = { country = -1 country = CAN value = 2 } } } type = embargo which = -1 where = CAN value = 0 } }
+    action = { name = "lifting_of_embargo_action_cgx" command = { trigger = { OR = { embargo = { country = -1 country = CGX value = 1 } embargo = { country = -1 country = CGX value = 2 } } } type = embargo which = -1 where = CGX value = 0 } }
+    action = { name = "lifting_of_embargo_action_chc" command = { trigger = { OR = { embargo = { country = -1 country = CHC value = 1 } embargo = { country = -1 country = CHC value = 2 } } } type = embargo which = -1 where = CHC value = 0 } }
+    action = { name = "lifting_of_embargo_action_chi" command = { trigger = { OR = { embargo = { country = -1 country = CHI value = 1 } embargo = { country = -1 country = CHI value = 2 } } } type = embargo which = -1 where = CHI value = 0 } }
+    action = { name = "lifting_of_embargo_action_chl" command = { trigger = { OR = { embargo = { country = -1 country = CHL value = 1 } embargo = { country = -1 country = CHL value = 2 } } } type = embargo which = -1 where = CHL value = 0 } }
+    action = { name = "lifting_of_embargo_action_cmb" command = { trigger = { OR = { embargo = { country = -1 country = CMB value = 1 } embargo = { country = -1 country = CMB value = 2 } } } type = embargo which = -1 where = CMB value = 0 } }
+    action = { name = "lifting_of_embargo_action_col" command = { trigger = { OR = { embargo = { country = -1 country = COL value = 1 } embargo = { country = -1 country = COL value = 2 } } } type = embargo which = -1 where = COL value = 0 } }
+    action = { name = "lifting_of_embargo_action_con" command = { trigger = { OR = { embargo = { country = -1 country = CON value = 1 } embargo = { country = -1 country = CON value = 2 } } } type = embargo which = -1 where = CON value = 0 } }
+    action = { name = "lifting_of_embargo_action_cos" command = { trigger = { OR = { embargo = { country = -1 country = COS value = 1 } embargo = { country = -1 country = COS value = 2 } } } type = embargo which = -1 where = COS value = 0 } }
+    action = { name = "lifting_of_embargo_action_cro" command = { trigger = { OR = { embargo = { country = -1 country = CRO value = 1 } embargo = { country = -1 country = CRO value = 2 } } } type = embargo which = -1 where = CRO value = 0 } }
+    action = { name = "lifting_of_embargo_action_csa" command = { trigger = { OR = { embargo = { country = -1 country = CSA value = 1 } embargo = { country = -1 country = CSA value = 2 } } } type = embargo which = -1 where = CSA value = 0 } }
+    action = { name = "lifting_of_embargo_action_csx" command = { trigger = { OR = { embargo = { country = -1 country = CSX value = 1 } embargo = { country = -1 country = CSX value = 2 } } } type = embargo which = -1 where = CSX value = 0 } }
+    action = { name = "lifting_of_embargo_action_cub" command = { trigger = { OR = { embargo = { country = -1 country = CUB value = 1 } embargo = { country = -1 country = CUB value = 2 } } } type = embargo which = -1 where = CUB value = 0 } }
+    action = { name = "lifting_of_embargo_action_cxb" command = { trigger = { OR = { embargo = { country = -1 country = CXB value = 1 } embargo = { country = -1 country = CXB value = 2 } } } type = embargo which = -1 where = CXB value = 0 } }
+    action = { name = "lifting_of_embargo_action_cyn" command = { trigger = { OR = { embargo = { country = -1 country = CYN value = 1 } embargo = { country = -1 country = CYN value = 2 } } } type = embargo which = -1 where = CYN value = 0 } }
+    action = { name = "lifting_of_embargo_action_cyp" command = { trigger = { OR = { embargo = { country = -1 country = CYP value = 1 } embargo = { country = -1 country = CYP value = 2 } } } type = embargo which = -1 where = CYP value = 0 } }
+    action = { name = "lifting_of_embargo_action_cze" command = { trigger = { OR = { embargo = { country = -1 country = CZE value = 1 } embargo = { country = -1 country = CZE value = 2 } } } type = embargo which = -1 where = CZE value = 0 } }
+    action = { name = "lifting_of_embargo_action_ddr" command = { trigger = { OR = { embargo = { country = -1 country = DDR value = 1 } embargo = { country = -1 country = DDR value = 2 } } } type = embargo which = -1 where = DDR value = 0 } }
+    action = { name = "lifting_of_embargo_action_den" command = { trigger = { OR = { embargo = { country = -1 country = DEN value = 1 } embargo = { country = -1 country = DEN value = 2 } } } type = embargo which = -1 where = DEN value = 0 } }
+    action = { name = "lifting_of_embargo_action_dfr" command = { trigger = { OR = { embargo = { country = -1 country = DFR value = 1 } embargo = { country = -1 country = DFR value = 2 } } } type = embargo which = -1 where = DFR value = 0 } }
+    action = { name = "lifting_of_embargo_action_eaf" command = { trigger = { OR = { embargo = { country = -1 country = EAF value = 1 } embargo = { country = -1 country = EAF value = 2 } } } type = embargo which = -1 where = EAF value = 0 } }
+    action = { name = "lifting_of_embargo_action_ecu" command = { trigger = { OR = { embargo = { country = -1 country = ECU value = 1 } embargo = { country = -1 country = ECU value = 2 } } } type = embargo which = -1 where = ECU value = 0 } }
+    action = { name = "lifting_of_embargo_action_egy" command = { trigger = { OR = { embargo = { country = -1 country = EGY value = 1 } embargo = { country = -1 country = EGY value = 2 } } } type = embargo which = -1 where = EGY value = 0 } }
+    action = { name = "lifting_of_embargo_action_eng" command = { trigger = { OR = { embargo = { country = -1 country = ENG value = 1 } embargo = { country = -1 country = ENG value = 2 } } } type = embargo which = -1 where = ENG value = 0 } }
+    action = { name = "lifting_of_embargo_action_eqa" command = { trigger = { OR = { embargo = { country = -1 country = EQA value = 1 } embargo = { country = -1 country = EQA value = 2 } } } type = embargo which = -1 where = EQA value = 0 } }
+    action = { name = "lifting_of_embargo_action_est" command = { trigger = { OR = { embargo = { country = -1 country = EST value = 1 } embargo = { country = -1 country = EST value = 2 } } } type = embargo which = -1 where = EST value = 0 } }
+    action = { name = "lifting_of_embargo_action_eth" command = { trigger = { OR = { embargo = { country = -1 country = ETH value = 1 } embargo = { country = -1 country = ETH value = 2 } } } type = embargo which = -1 where = ETH value = 0 } }
+    action = { name = "lifting_of_embargo_action_eus" command = { trigger = { OR = { embargo = { country = -1 country = EUS value = 1 } embargo = { country = -1 country = EUS value = 2 } } } type = embargo which = -1 where = EUS value = 0 } }
+    action = { name = "lifting_of_embargo_action_fin" command = { trigger = { OR = { embargo = { country = -1 country = FIN value = 1 } embargo = { country = -1 country = FIN value = 2 } } } type = embargo which = -1 where = FIN value = 0 } }
+    action = { name = "lifting_of_embargo_action_fla" command = { trigger = { OR = { embargo = { country = -1 country = FLA value = 1 } embargo = { country = -1 country = FLA value = 2 } } } type = embargo which = -1 where = FLA value = 0 } }
+    action = { name = "lifting_of_embargo_action_fra" command = { trigger = { OR = { embargo = { country = -1 country = FRA value = 1 } embargo = { country = -1 country = FRA value = 2 } } } type = embargo which = -1 where = FRA value = 0 } }
+    action = { name = "lifting_of_embargo_action_gab" command = { trigger = { OR = { embargo = { country = -1 country = GAB value = 1 } embargo = { country = -1 country = GAB value = 2 } } } type = embargo which = -1 where = GAB value = 0 } }
+    action = { name = "lifting_of_embargo_action_geo" command = { trigger = { OR = { embargo = { country = -1 country = GEO value = 1 } embargo = { country = -1 country = GEO value = 2 } } } type = embargo which = -1 where = GEO value = 0 } }
+    action = { name = "lifting_of_embargo_action_ger" command = { trigger = { OR = { embargo = { country = -1 country = GER value = 1 } embargo = { country = -1 country = GER value = 2 } } } type = embargo which = -1 where = GER value = 0 } }
+    action = { name = "lifting_of_embargo_action_gld" command = { trigger = { OR = { embargo = { country = -1 country = GLD value = 1 } embargo = { country = -1 country = GLD value = 2 } } } type = embargo which = -1 where = GLD value = 0 } }
+    action = { name = "lifting_of_embargo_action_gre" command = { trigger = { OR = { embargo = { country = -1 country = GRE value = 1 } embargo = { country = -1 country = GRE value = 2 } } } type = embargo which = -1 where = GRE value = 0 } }
+    action = { name = "lifting_of_embargo_action_gua" command = { trigger = { OR = { embargo = { country = -1 country = GUA value = 1 } embargo = { country = -1 country = GUA value = 2 } } } type = embargo which = -1 where = GUA value = 0 } }
+    action = { name = "lifting_of_embargo_action_gui" command = { trigger = { OR = { embargo = { country = -1 country = GUI value = 1 } embargo = { country = -1 country = GUI value = 2 } } } type = embargo which = -1 where = GUI value = 0 } }
+    action = { name = "lifting_of_embargo_action_guy" command = { trigger = { OR = { embargo = { country = -1 country = GUY value = 1 } embargo = { country = -1 country = GUY value = 2 } } } type = embargo which = -1 where = GUY value = 0 } }
+    action = { name = "lifting_of_embargo_action_hol" command = { trigger = { OR = { embargo = { country = -1 country = HOL value = 1 } embargo = { country = -1 country = HOL value = 2 } } } type = embargo which = -1 where = HOL value = 0 } }
+    action = { name = "lifting_of_embargo_action_hon" command = { trigger = { OR = { embargo = { country = -1 country = HON value = 1 } embargo = { country = -1 country = HON value = 2 } } } type = embargo which = -1 where = HON value = 0 } }
+    action = { name = "lifting_of_embargo_action_hun" command = { trigger = { OR = { embargo = { country = -1 country = HUN value = 1 } embargo = { country = -1 country = HUN value = 2 } } } type = embargo which = -1 where = HUN value = 0 } }
+    action = { name = "lifting_of_embargo_action_icl" command = { trigger = { OR = { embargo = { country = -1 country = ICL value = 1 } embargo = { country = -1 country = ICL value = 2 } } } type = embargo which = -1 where = ICL value = 0 } }
+    action = { name = "lifting_of_embargo_action_idc" command = { trigger = { OR = { embargo = { country = -1 country = IDC value = 1 } embargo = { country = -1 country = IDC value = 2 } } } type = embargo which = -1 where = IDC value = 0 } }
+    action = { name = "lifting_of_embargo_action_ind" command = { trigger = { OR = { embargo = { country = -1 country = IND value = 1 } embargo = { country = -1 country = IND value = 2 } } } type = embargo which = -1 where = IND value = 0 } }
+    action = { name = "lifting_of_embargo_action_ino" command = { trigger = { OR = { embargo = { country = -1 country = INO value = 1 } embargo = { country = -1 country = INO value = 2 } } } type = embargo which = -1 where = INO value = 0 } }
+    action = { name = "lifting_of_embargo_action_ire" command = { trigger = { OR = { embargo = { country = -1 country = IRE value = 1 } embargo = { country = -1 country = IRE value = 2 } } } type = embargo which = -1 where = IRE value = 0 } }
+    action = { name = "lifting_of_embargo_action_irq" command = { trigger = { OR = { embargo = { country = -1 country = IRQ value = 1 } embargo = { country = -1 country = IRQ value = 2 } } } type = embargo which = -1 where = IRQ value = 0 } }
+    action = { name = "lifting_of_embargo_action_isr" command = { trigger = { OR = { embargo = { country = -1 country = ISR value = 1 } embargo = { country = -1 country = ISR value = 2 } } } type = embargo which = -1 where = ISR value = 0 } }
+    action = { name = "lifting_of_embargo_action_ita" command = { trigger = { OR = { embargo = { country = -1 country = ITA value = 1 } embargo = { country = -1 country = ITA value = 2 } } } type = embargo which = -1 where = ITA value = 0 } }
+    action = { name = "lifting_of_embargo_action_jap" command = { trigger = { OR = { embargo = { country = -1 country = JAP value = 1 } embargo = { country = -1 country = JAP value = 2 } } } type = embargo which = -1 where = JAP value = 0 } }
+    action = { name = "lifting_of_embargo_action_jor" command = { trigger = { OR = { embargo = { country = -1 country = JOR value = 1 } embargo = { country = -1 country = JOR value = 2 } } } type = embargo which = -1 where = JOR value = 0 } }
+    action = { name = "lifting_of_embargo_action_kaz" command = { trigger = { OR = { embargo = { country = -1 country = KAZ value = 1 } embargo = { country = -1 country = KAZ value = 2 } } } type = embargo which = -1 where = KAZ value = 0 } }
+    action = { name = "lifting_of_embargo_action_kor" command = { trigger = { OR = { embargo = { country = -1 country = KOR value = 1 } embargo = { country = -1 country = KOR value = 2 } } } type = embargo which = -1 where = KOR value = 0 } }
+    action = { name = "lifting_of_embargo_action_kur" command = { trigger = { OR = { embargo = { country = -1 country = KUR value = 1 } embargo = { country = -1 country = KUR value = 2 } } } type = embargo which = -1 where = KUR value = 0 } }
+    action = { name = "lifting_of_embargo_action_kyg" command = { trigger = { OR = { embargo = { country = -1 country = KYG value = 1 } embargo = { country = -1 country = KYG value = 2 } } } type = embargo which = -1 where = KYG value = 0 } }
+    action = { name = "lifting_of_embargo_action_lao" command = { trigger = { OR = { embargo = { country = -1 country = LAO value = 1 } embargo = { country = -1 country = LAO value = 2 } } } type = embargo which = -1 where = LAO value = 0 } }
+    action = { name = "lifting_of_embargo_action_lat" command = { trigger = { OR = { embargo = { country = -1 country = LAT value = 1 } embargo = { country = -1 country = LAT value = 2 } } } type = embargo which = -1 where = LAT value = 0 } }
+    action = { name = "lifting_of_embargo_action_lby" command = { trigger = { OR = { embargo = { country = -1 country = LBY value = 1 } embargo = { country = -1 country = LBY value = 2 } } } type = embargo which = -1 where = LBY value = 0 } }
+    action = { name = "lifting_of_embargo_action_leb" command = { trigger = { OR = { embargo = { country = -1 country = LEB value = 1 } embargo = { country = -1 country = LEB value = 2 } } } type = embargo which = -1 where = LEB value = 0 } }
+    action = { name = "lifting_of_embargo_action_lit" command = { trigger = { OR = { embargo = { country = -1 country = LIT value = 1 } embargo = { country = -1 country = LIT value = 2 } } } type = embargo which = -1 where = LIT value = 0 } }
+    action = { name = "lifting_of_embargo_action_lux" command = { trigger = { OR = { embargo = { country = -1 country = LUX value = 1 } embargo = { country = -1 country = LUX value = 2 } } } type = embargo which = -1 where = LUX value = 0 } }
+    action = { name = "lifting_of_embargo_action_mad" command = { trigger = { OR = { embargo = { country = -1 country = MAD value = 1 } embargo = { country = -1 country = MAD value = 2 } } } type = embargo which = -1 where = MAD value = 0 } }
+    action = { name = "lifting_of_embargo_action_mal" command = { trigger = { OR = { embargo = { country = -1 country = MAL value = 1 } embargo = { country = -1 country = MAL value = 2 } } } type = embargo which = -1 where = MAL value = 0 } }
+    action = { name = "lifting_of_embargo_action_man" command = { trigger = { OR = { embargo = { country = -1 country = MAN value = 1 } embargo = { country = -1 country = MAN value = 2 } } } type = embargo which = -1 where = MAN value = 0 } }
+    action = { name = "lifting_of_embargo_action_men" command = { trigger = { OR = { embargo = { country = -1 country = MEN value = 1 } embargo = { country = -1 country = MEN value = 2 } } } type = embargo which = -1 where = MEN value = 0 } }
+    action = { name = "lifting_of_embargo_action_mex" command = { trigger = { OR = { embargo = { country = -1 country = MEX value = 1 } embargo = { country = -1 country = MEX value = 2 } } } type = embargo which = -1 where = MEX value = 0 } }
+    action = { name = "lifting_of_embargo_action_mly" command = { trigger = { OR = { embargo = { country = -1 country = MLY value = 1 } embargo = { country = -1 country = MLY value = 2 } } } type = embargo which = -1 where = MLY value = 0 } }
+    action = { name = "lifting_of_embargo_action_mon" command = { trigger = { OR = { embargo = { country = -1 country = MON value = 1 } embargo = { country = -1 country = MON value = 2 } } } type = embargo which = -1 where = MON value = 0 } }
+    action = { name = "lifting_of_embargo_action_mor" command = { trigger = { OR = { embargo = { country = -1 country = MOR value = 1 } embargo = { country = -1 country = MOR value = 2 } } } type = embargo which = -1 where = MOR value = 0 } }
+    action = { name = "lifting_of_embargo_action_moz" command = { trigger = { OR = { embargo = { country = -1 country = MOZ value = 1 } embargo = { country = -1 country = MOZ value = 2 } } } type = embargo which = -1 where = MOZ value = 0 } }
+    action = { name = "lifting_of_embargo_action_mtn" command = { trigger = { OR = { embargo = { country = -1 country = MTN value = 1 } embargo = { country = -1 country = MTN value = 2 } } } type = embargo which = -1 where = MTN value = 0 } }
+    action = { name = "lifting_of_embargo_action_nam" command = { trigger = { OR = { embargo = { country = -1 country = NAM value = 1 } embargo = { country = -1 country = NAM value = 2 } } } type = embargo which = -1 where = NAM value = 0 } }
+    action = { name = "lifting_of_embargo_action_nic" command = { trigger = { OR = { embargo = { country = -1 country = NIC value = 1 } embargo = { country = -1 country = NIC value = 2 } } } type = embargo which = -1 where = NIC value = 0 } }
+    action = { name = "lifting_of_embargo_action_nig" command = { trigger = { OR = { embargo = { country = -1 country = NIG value = 1 } embargo = { country = -1 country = NIG value = 2 } } } type = embargo which = -1 where = NIG value = 0 } }
+    action = { name = "lifting_of_embargo_action_nor" command = { trigger = { OR = { embargo = { country = -1 country = NOR value = 1 } embargo = { country = -1 country = NOR value = 2 } } } type = embargo which = -1 where = NOR value = 0 } }
+    action = { name = "lifting_of_embargo_action_nzl" command = { trigger = { OR = { embargo = { country = -1 country = NZL value = 1 } embargo = { country = -1 country = NZL value = 2 } } } type = embargo which = -1 where = NZL value = 0 } }
+    action = { name = "lifting_of_embargo_action_omn" command = { trigger = { OR = { embargo = { country = -1 country = OMN value = 1 } embargo = { country = -1 country = OMN value = 2 } } } type = embargo which = -1 where = OMN value = 0 } }
+    action = { name = "lifting_of_embargo_action_ott" command = { trigger = { OR = { embargo = { country = -1 country = OTT value = 1 } embargo = { country = -1 country = OTT value = 2 } } } type = embargo which = -1 where = OTT value = 0 } }
+    action = { name = "lifting_of_embargo_action_pak" command = { trigger = { OR = { embargo = { country = -1 country = PAK value = 1 } embargo = { country = -1 country = PAK value = 2 } } } type = embargo which = -1 where = PAK value = 0 } }
+    action = { name = "lifting_of_embargo_action_pal" command = { trigger = { OR = { embargo = { country = -1 country = PAL value = 1 } embargo = { country = -1 country = PAL value = 2 } } } type = embargo which = -1 where = PAL value = 0 } }
+    action = { name = "lifting_of_embargo_action_pan" command = { trigger = { OR = { embargo = { country = -1 country = PAN value = 1 } embargo = { country = -1 country = PAN value = 2 } } } type = embargo which = -1 where = PAN value = 0 } }
+    action = { name = "lifting_of_embargo_action_par" command = { trigger = { OR = { embargo = { country = -1 country = PAR value = 1 } embargo = { country = -1 country = PAR value = 2 } } } type = embargo which = -1 where = PAR value = 0 } }
+    action = { name = "lifting_of_embargo_action_per" command = { trigger = { OR = { embargo = { country = -1 country = PER value = 1 } embargo = { country = -1 country = PER value = 2 } } } type = embargo which = -1 where = PER value = 0 } }
+    action = { name = "lifting_of_embargo_action_phi" command = { trigger = { OR = { embargo = { country = -1 country = PHI value = 1 } embargo = { country = -1 country = PHI value = 2 } } } type = embargo which = -1 where = PHI value = 0 } }
+    action = { name = "lifting_of_embargo_action_pol" command = { trigger = { OR = { embargo = { country = -1 country = POL value = 1 } embargo = { country = -1 country = POL value = 2 } } } type = embargo which = -1 where = POL value = 0 } }
+    action = { name = "lifting_of_embargo_action_por" command = { trigger = { OR = { embargo = { country = -1 country = POR value = 1 } embargo = { country = -1 country = POR value = 2 } } } type = embargo which = -1 where = POR value = 0 } }
+    action = { name = "lifting_of_embargo_action_pri" command = { trigger = { OR = { embargo = { country = -1 country = PRI value = 1 } embargo = { country = -1 country = PRI value = 2 } } } type = embargo which = -1 where = PRI value = 0 } }
+    action = { name = "lifting_of_embargo_action_prk" command = { trigger = { OR = { embargo = { country = -1 country = PRK value = 1 } embargo = { country = -1 country = PRK value = 2 } } } type = embargo which = -1 where = PRK value = 0 } }
+    action = { name = "lifting_of_embargo_action_pru" command = { trigger = { OR = { embargo = { country = -1 country = PRU value = 1 } embargo = { country = -1 country = PRU value = 2 } } } type = embargo which = -1 where = PRU value = 0 } }
+    action = { name = "lifting_of_embargo_action_que" command = { trigger = { OR = { embargo = { country = -1 country = QUE value = 1 } embargo = { country = -1 country = QUE value = 2 } } } type = embargo which = -1 where = QUE value = 0 } }
+    action = { name = "lifting_of_embargo_action_rho" command = { trigger = { OR = { embargo = { country = -1 country = RHO value = 1 } embargo = { country = -1 country = RHO value = 2 } } } type = embargo which = -1 where = RHO value = 0 } }
+    action = { name = "lifting_of_embargo_action_rom" command = { trigger = { OR = { embargo = { country = -1 country = ROM value = 1 } embargo = { country = -1 country = ROM value = 2 } } } type = embargo which = -1 where = ROM value = 0 } }
+    action = { name = "lifting_of_embargo_action_rsi" command = { trigger = { OR = { embargo = { country = -1 country = RSI value = 1 } embargo = { country = -1 country = RSI value = 2 } } } type = embargo which = -1 where = RSI value = 0 } }
+    action = { name = "lifting_of_embargo_action_rus" command = { trigger = { OR = { embargo = { country = -1 country = RUS value = 1 } embargo = { country = -1 country = RUS value = 2 } } } type = embargo which = -1 where = RUS value = 0 } }
+    action = { name = "lifting_of_embargo_action_saf" command = { trigger = { OR = { embargo = { country = -1 country = SAF value = 1 } embargo = { country = -1 country = SAF value = 2 } } } type = embargo which = -1 where = SAF value = 0 } }
+    action = { name = "lifting_of_embargo_action_sal" command = { trigger = { OR = { embargo = { country = -1 country = SAL value = 1 } embargo = { country = -1 country = SAL value = 2 } } } type = embargo which = -1 where = SAL value = 0 } }
+    action = { name = "lifting_of_embargo_action_sar" command = { trigger = { OR = { embargo = { country = -1 country = SAR value = 1 } embargo = { country = -1 country = SAR value = 2 } } } type = embargo which = -1 where = SAR value = 0 } }
+    action = { name = "lifting_of_embargo_action_sau" command = { trigger = { OR = { embargo = { country = -1 country = SAU value = 1 } embargo = { country = -1 country = SAU value = 2 } } } type = embargo which = -1 where = SAU value = 0 } }
+    action = { name = "lifting_of_embargo_action_sca" command = { trigger = { OR = { embargo = { country = -1 country = SCA value = 1 } embargo = { country = -1 country = SCA value = 2 } } } type = embargo which = -1 where = SCA value = 0 } }
+    action = { name = "lifting_of_embargo_action_sch" command = { trigger = { OR = { embargo = { country = -1 country = SCH value = 1 } embargo = { country = -1 country = SCH value = 2 } } } type = embargo which = -1 where = SCH value = 0 } }
+    action = { name = "lifting_of_embargo_action_sco" command = { trigger = { OR = { embargo = { country = -1 country = SCO value = 1 } embargo = { country = -1 country = SCO value = 2 } } } type = embargo which = -1 where = SCO value = 0 } }
+    action = { name = "lifting_of_embargo_action_ser" command = { trigger = { OR = { embargo = { country = -1 country = SER value = 1 } embargo = { country = -1 country = SER value = 2 } } } type = embargo which = -1 where = SER value = 0 } }
+    action = { name = "lifting_of_embargo_action_sia" command = { trigger = { OR = { embargo = { country = -1 country = SIA value = 1 } embargo = { country = -1 country = SIA value = 2 } } } type = embargo which = -1 where = SIA value = 0 } }
+    action = { name = "lifting_of_embargo_action_sib" command = { trigger = { OR = { embargo = { country = -1 country = SIB value = 1 } embargo = { country = -1 country = SIB value = 2 } } } type = embargo which = -1 where = SIB value = 0 } }
+    action = { name = "lifting_of_embargo_action_sie" command = { trigger = { OR = { embargo = { country = -1 country = SIE value = 1 } embargo = { country = -1 country = SIE value = 2 } } } type = embargo which = -1 where = SIE value = 0 } }
+    action = { name = "lifting_of_embargo_action_sik" command = { trigger = { OR = { embargo = { country = -1 country = SIK value = 1 } embargo = { country = -1 country = SIK value = 2 } } } type = embargo which = -1 where = SIK value = 0 } }
+    action = { name = "lifting_of_embargo_action_slo" command = { trigger = { OR = { embargo = { country = -1 country = SLO value = 1 } embargo = { country = -1 country = SLO value = 2 } } } type = embargo which = -1 where = SLO value = 0 } }
+    action = { name = "lifting_of_embargo_action_slv" command = { trigger = { OR = { embargo = { country = -1 country = SLV value = 1 } embargo = { country = -1 country = SLV value = 2 } } } type = embargo which = -1 where = SLV value = 0 } }
+    action = { name = "lifting_of_embargo_action_som" command = { trigger = { OR = { embargo = { country = -1 country = SOM value = 1 } embargo = { country = -1 country = SOM value = 2 } } } type = embargo which = -1 where = SOM value = 0 } }
+    action = { name = "lifting_of_embargo_action_sov" command = { trigger = { OR = { embargo = { country = -1 country = SOV value = 1 } embargo = { country = -1 country = SOV value = 2 } } } type = embargo which = -1 where = SOV value = 0 } }
+    action = { name = "lifting_of_embargo_action_spa" command = { trigger = { OR = { embargo = { country = -1 country = SPA value = 1 } embargo = { country = -1 country = SPA value = 2 } } } type = embargo which = -1 where = SPA value = 0 } }
+    action = { name = "lifting_of_embargo_action_spr" command = { trigger = { OR = { embargo = { country = -1 country = SPR value = 1 } embargo = { country = -1 country = SPR value = 2 } } } type = embargo which = -1 where = SPR value = 0 } }
+    action = { name = "lifting_of_embargo_action_sud" command = { trigger = { OR = { embargo = { country = -1 country = SUD value = 1 } embargo = { country = -1 country = SUD value = 2 } } } type = embargo which = -1 where = SUD value = 0 } }
+    action = { name = "lifting_of_embargo_action_swe" command = { trigger = { OR = { embargo = { country = -1 country = SWE value = 1 } embargo = { country = -1 country = SWE value = 2 } } } type = embargo which = -1 where = SWE value = 0 } }
+    action = { name = "lifting_of_embargo_action_syr" command = { trigger = { OR = { embargo = { country = -1 country = SYR value = 1 } embargo = { country = -1 country = SYR value = 2 } } } type = embargo which = -1 where = SYR value = 0 } }
+    action = { name = "lifting_of_embargo_action_taj" command = { trigger = { OR = { embargo = { country = -1 country = TAJ value = 1 } embargo = { country = -1 country = TAJ value = 2 } } } type = embargo which = -1 where = TAJ value = 0 } }
+    action = { name = "lifting_of_embargo_action_tan" command = { trigger = { OR = { embargo = { country = -1 country = TAN value = 1 } embargo = { country = -1 country = TAN value = 2 } } } type = embargo which = -1 where = TAN value = 0 } }
+    action = { name = "lifting_of_embargo_action_tex" command = { trigger = { OR = { embargo = { country = -1 country = TEX value = 1 } embargo = { country = -1 country = TEX value = 2 } } } type = embargo which = -1 where = TEX value = 0 } }
+    action = { name = "lifting_of_embargo_action_tra" command = { trigger = { OR = { embargo = { country = -1 country = TRA value = 1 } embargo = { country = -1 country = TRA value = 2 } } } type = embargo which = -1 where = TRA value = 0 } }
+    action = { name = "lifting_of_embargo_action_trk" command = { trigger = { OR = { embargo = { country = -1 country = TRK value = 1 } embargo = { country = -1 country = TRK value = 2 } } } type = embargo which = -1 where = TRK value = 0 } }
+    action = { name = "lifting_of_embargo_action_tun" command = { trigger = { OR = { embargo = { country = -1 country = TUN value = 1 } embargo = { country = -1 country = TUN value = 2 } } } type = embargo which = -1 where = TUN value = 0 } }
+    action = { name = "lifting_of_embargo_action_tur" command = { trigger = { OR = { embargo = { country = -1 country = TUR value = 1 } embargo = { country = -1 country = TUR value = 2 } } } type = embargo which = -1 where = TUR value = 0 } }
+    action = { name = "lifting_of_embargo_action_ukr" command = { trigger = { OR = { embargo = { country = -1 country = UKR value = 1 } embargo = { country = -1 country = UKR value = 2 } } } type = embargo which = -1 where = UKR value = 0 } }
+    action = { name = "lifting_of_embargo_action_uru" command = { trigger = { OR = { embargo = { country = -1 country = URU value = 1 } embargo = { country = -1 country = URU value = 2 } } } type = embargo which = -1 where = URU value = 0 } }
+    action = { name = "lifting_of_embargo_action_usa" command = { trigger = { OR = { embargo = { country = -1 country = USA value = 1 } embargo = { country = -1 country = USA value = 2 } } } type = embargo which = -1 where = USA value = 0 } }
+    action = { name = "lifting_of_embargo_action_uzb" command = { trigger = { OR = { embargo = { country = -1 country = UZB value = 1 } embargo = { country = -1 country = UZB value = 2 } } } type = embargo which = -1 where = UZB value = 0 } }
+    action = { name = "lifting_of_embargo_action_ven" command = { trigger = { OR = { embargo = { country = -1 country = VEN value = 1 } embargo = { country = -1 country = VEN value = 2 } } } type = embargo which = -1 where = VEN value = 0 } }
+    action = { name = "lifting_of_embargo_action_vie" command = { trigger = { OR = { embargo = { country = -1 country = VIE value = 1 } embargo = { country = -1 country = VIE value = 2 } } } type = embargo which = -1 where = VIE value = 0 } }
+    action = { name = "lifting_of_embargo_action_wll" command = { trigger = { OR = { embargo = { country = -1 country = WLL value = 1 } embargo = { country = -1 country = WLL value = 2 } } } type = embargo which = -1 where = WLL value = 0 } }
+    action = { name = "lifting_of_embargo_action_yem" command = { trigger = { OR = { embargo = { country = -1 country = YEM value = 1 } embargo = { country = -1 country = YEM value = 2 } } } type = embargo which = -1 where = YEM value = 0 } }
+    action = { name = "lifting_of_embargo_action_yug" command = { trigger = { OR = { embargo = { country = -1 country = YUG value = 1 } embargo = { country = -1 country = YUG value = 2 } } } type = embargo which = -1 where = YUG value = 0 } }
+    action = { name = "lifting_of_embargo_action_u01" command = { trigger = { OR = { embargo = { country = -1 country = U01 value = 1 } embargo = { country = -1 country = U01 value = 2 } } } type = embargo which = -1 where = U01 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u02" command = { trigger = { OR = { embargo = { country = -1 country = U02 value = 1 } embargo = { country = -1 country = U02 value = 2 } } } type = embargo which = -1 where = U02 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u03" command = { trigger = { OR = { embargo = { country = -1 country = U03 value = 1 } embargo = { country = -1 country = U03 value = 2 } } } type = embargo which = -1 where = U03 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u04" command = { trigger = { OR = { embargo = { country = -1 country = U04 value = 1 } embargo = { country = -1 country = U04 value = 2 } } } type = embargo which = -1 where = U04 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u08" command = { trigger = { OR = { embargo = { country = -1 country = U08 value = 1 } embargo = { country = -1 country = U08 value = 2 } } } type = embargo which = -1 where = U08 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u09" command = { trigger = { OR = { embargo = { country = -1 country = U09 value = 1 } embargo = { country = -1 country = U09 value = 2 } } } type = embargo which = -1 where = U09 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u10" command = { trigger = { OR = { embargo = { country = -1 country = U10 value = 1 } embargo = { country = -1 country = U10 value = 2 } } } type = embargo which = -1 where = U10 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u11" command = { trigger = { OR = { embargo = { country = -1 country = U11 value = 1 } embargo = { country = -1 country = U11 value = 2 } } } type = embargo which = -1 where = U11 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u12" command = { trigger = { OR = { embargo = { country = -1 country = U12 value = 1 } embargo = { country = -1 country = U12 value = 2 } } } type = embargo which = -1 where = U12 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u13" command = { trigger = { OR = { embargo = { country = -1 country = U13 value = 1 } embargo = { country = -1 country = U13 value = 2 } } } type = embargo which = -1 where = U13 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u14" command = { trigger = { OR = { embargo = { country = -1 country = U14 value = 1 } embargo = { country = -1 country = U14 value = 2 } } } type = embargo which = -1 where = U14 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u15" command = { trigger = { OR = { embargo = { country = -1 country = U15 value = 1 } embargo = { country = -1 country = U15 value = 2 } } } type = embargo which = -1 where = U15 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u16" command = { trigger = { OR = { embargo = { country = -1 country = U16 value = 1 } embargo = { country = -1 country = U16 value = 2 } } } type = embargo which = -1 where = U16 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u17" command = { trigger = { OR = { embargo = { country = -1 country = U17 value = 1 } embargo = { country = -1 country = U17 value = 2 } } } type = embargo which = -1 where = U17 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u18" command = { trigger = { OR = { embargo = { country = -1 country = U18 value = 1 } embargo = { country = -1 country = U18 value = 2 } } } type = embargo which = -1 where = U18 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u19" command = { trigger = { OR = { embargo = { country = -1 country = U19 value = 1 } embargo = { country = -1 country = U19 value = 2 } } } type = embargo which = -1 where = U19 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u20" command = { trigger = { OR = { embargo = { country = -1 country = U20 value = 1 } embargo = { country = -1 country = U20 value = 2 } } } type = embargo which = -1 where = U20 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u21" command = { trigger = { OR = { embargo = { country = -1 country = U21 value = 1 } embargo = { country = -1 country = U21 value = 2 } } } type = embargo which = -1 where = U21 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u22" command = { trigger = { OR = { embargo = { country = -1 country = U22 value = 1 } embargo = { country = -1 country = U22 value = 2 } } } type = embargo which = -1 where = U22 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u26" command = { trigger = { OR = { embargo = { country = -1 country = U26 value = 1 } embargo = { country = -1 country = U26 value = 2 } } } type = embargo which = -1 where = U26 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u27" command = { trigger = { OR = { embargo = { country = -1 country = U27 value = 1 } embargo = { country = -1 country = U27 value = 2 } } } type = embargo which = -1 where = U27 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u28" command = { trigger = { OR = { embargo = { country = -1 country = U28 value = 1 } embargo = { country = -1 country = U28 value = 2 } } } type = embargo which = -1 where = U28 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u29" command = { trigger = { OR = { embargo = { country = -1 country = U29 value = 1 } embargo = { country = -1 country = U29 value = 2 } } } type = embargo which = -1 where = U29 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u30" command = { trigger = { OR = { embargo = { country = -1 country = U30 value = 1 } embargo = { country = -1 country = U30 value = 2 } } } type = embargo which = -1 where = U30 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u31" command = { trigger = { OR = { embargo = { country = -1 country = U31 value = 1 } embargo = { country = -1 country = U31 value = 2 } } } type = embargo which = -1 where = U31 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u32" command = { trigger = { OR = { embargo = { country = -1 country = U32 value = 1 } embargo = { country = -1 country = U32 value = 2 } } } type = embargo which = -1 where = U32 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u33" command = { trigger = { OR = { embargo = { country = -1 country = U33 value = 1 } embargo = { country = -1 country = U33 value = 2 } } } type = embargo which = -1 where = U33 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u34" command = { trigger = { OR = { embargo = { country = -1 country = U34 value = 1 } embargo = { country = -1 country = U34 value = 2 } } } type = embargo which = -1 where = U34 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u35" command = { trigger = { OR = { embargo = { country = -1 country = U35 value = 1 } embargo = { country = -1 country = U35 value = 2 } } } type = embargo which = -1 where = U35 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u40" command = { trigger = { OR = { embargo = { country = -1 country = U40 value = 1 } embargo = { country = -1 country = U40 value = 2 } } } type = embargo which = -1 where = U40 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u41" command = { trigger = { OR = { embargo = { country = -1 country = U41 value = 1 } embargo = { country = -1 country = U41 value = 2 } } } type = embargo which = -1 where = U41 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u42" command = { trigger = { OR = { embargo = { country = -1 country = U42 value = 1 } embargo = { country = -1 country = U42 value = 2 } } } type = embargo which = -1 where = U42 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u43" command = { trigger = { OR = { embargo = { country = -1 country = U43 value = 1 } embargo = { country = -1 country = U43 value = 2 } } } type = embargo which = -1 where = U43 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u44" command = { trigger = { OR = { embargo = { country = -1 country = U44 value = 1 } embargo = { country = -1 country = U44 value = 2 } } } type = embargo which = -1 where = U44 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u45" command = { trigger = { OR = { embargo = { country = -1 country = U45 value = 1 } embargo = { country = -1 country = U45 value = 2 } } } type = embargo which = -1 where = U45 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u46" command = { trigger = { OR = { embargo = { country = -1 country = U46 value = 1 } embargo = { country = -1 country = U46 value = 2 } } } type = embargo which = -1 where = U46 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u47" command = { trigger = { OR = { embargo = { country = -1 country = U47 value = 1 } embargo = { country = -1 country = U47 value = 2 } } } type = embargo which = -1 where = U47 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u48" command = { trigger = { OR = { embargo = { country = -1 country = U48 value = 1 } embargo = { country = -1 country = U48 value = 2 } } } type = embargo which = -1 where = U48 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u49" command = { trigger = { OR = { embargo = { country = -1 country = U49 value = 1 } embargo = { country = -1 country = U49 value = 2 } } } type = embargo which = -1 where = U49 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u50" command = { trigger = { OR = { embargo = { country = -1 country = U50 value = 1 } embargo = { country = -1 country = U50 value = 2 } } } type = embargo which = -1 where = U50 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u51" command = { trigger = { OR = { embargo = { country = -1 country = U51 value = 1 } embargo = { country = -1 country = U51 value = 2 } } } type = embargo which = -1 where = U51 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u52" command = { trigger = { OR = { embargo = { country = -1 country = U52 value = 1 } embargo = { country = -1 country = U52 value = 2 } } } type = embargo which = -1 where = U52 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u53" command = { trigger = { OR = { embargo = { country = -1 country = U53 value = 1 } embargo = { country = -1 country = U53 value = 2 } } } type = embargo which = -1 where = U53 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u54" command = { trigger = { OR = { embargo = { country = -1 country = U54 value = 1 } embargo = { country = -1 country = U54 value = 2 } } } type = embargo which = -1 where = U54 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u55" command = { trigger = { OR = { embargo = { country = -1 country = U55 value = 1 } embargo = { country = -1 country = U55 value = 2 } } } type = embargo which = -1 where = U55 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u56" command = { trigger = { OR = { embargo = { country = -1 country = U56 value = 1 } embargo = { country = -1 country = U56 value = 2 } } } type = embargo which = -1 where = U56 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u67" command = { trigger = { OR = { embargo = { country = -1 country = U67 value = 1 } embargo = { country = -1 country = U67 value = 2 } } } type = embargo which = -1 where = U67 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u69" command = { trigger = { OR = { embargo = { country = -1 country = U69 value = 1 } embargo = { country = -1 country = U69 value = 2 } } } type = embargo which = -1 where = U69 value = 0 } }
+    action = { name = "lifting_of_embargo_action_utc" command = { trigger = { OR = { embargo = { country = -1 country = UTC value = 1 } embargo = { country = -1 country = UTC value = 2 } } } type = embargo which = -1 where = UTC value = 0 } }
+    action = { name = "lifting_of_embargo_action_uer" command = { trigger = { OR = { embargo = { country = -1 country = UER value = 1 } embargo = { country = -1 country = UER value = 2 } } } type = embargo which = -1 where = UER value = 0 } }
+    action = { name = "lifting_of_embargo_action_upe" command = { trigger = { OR = { embargo = { country = -1 country = UPE value = 1 } embargo = { country = -1 country = UPE value = 2 } } } type = embargo which = -1 where = UPE value = 0 } }
+    action = { name = "lifting_of_embargo_action_u70" command = { trigger = { OR = { embargo = { country = -1 country = U70 value = 1 } embargo = { country = -1 country = U70 value = 2 } } } type = embargo which = -1 where = U70 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u71" command = { trigger = { OR = { embargo = { country = -1 country = U71 value = 1 } embargo = { country = -1 country = U71 value = 2 } } } type = embargo which = -1 where = U71 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u72" command = { trigger = { OR = { embargo = { country = -1 country = U72 value = 1 } embargo = { country = -1 country = U72 value = 2 } } } type = embargo which = -1 where = U72 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u73" command = { trigger = { OR = { embargo = { country = -1 country = U73 value = 1 } embargo = { country = -1 country = U73 value = 2 } } } type = embargo which = -1 where = U73 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u74" command = { trigger = { OR = { embargo = { country = -1 country = U74 value = 1 } embargo = { country = -1 country = U74 value = 2 } } } type = embargo which = -1 where = U74 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u75" command = { trigger = { OR = { embargo = { country = -1 country = U75 value = 1 } embargo = { country = -1 country = U75 value = 2 } } } type = embargo which = -1 where = U75 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u76" command = { trigger = { OR = { embargo = { country = -1 country = U76 value = 1 } embargo = { country = -1 country = U76 value = 2 } } } type = embargo which = -1 where = U76 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u77" command = { trigger = { OR = { embargo = { country = -1 country = U77 value = 1 } embargo = { country = -1 country = U77 value = 2 } } } type = embargo which = -1 where = U77 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u78" command = { trigger = { OR = { embargo = { country = -1 country = U78 value = 1 } embargo = { country = -1 country = U78 value = 2 } } } type = embargo which = -1 where = U78 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u79" command = { trigger = { OR = { embargo = { country = -1 country = U79 value = 1 } embargo = { country = -1 country = U79 value = 2 } } } type = embargo which = -1 where = U79 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u80" command = { trigger = { OR = { embargo = { country = -1 country = U80 value = 1 } embargo = { country = -1 country = U80 value = 2 } } } type = embargo which = -1 where = U80 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u81" command = { trigger = { OR = { embargo = { country = -1 country = U81 value = 1 } embargo = { country = -1 country = U81 value = 2 } } } type = embargo which = -1 where = U81 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u82" command = { trigger = { OR = { embargo = { country = -1 country = U82 value = 1 } embargo = { country = -1 country = U82 value = 2 } } } type = embargo which = -1 where = U82 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u83" command = { trigger = { OR = { embargo = { country = -1 country = U83 value = 1 } embargo = { country = -1 country = U83 value = 2 } } } type = embargo which = -1 where = U83 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u84" command = { trigger = { OR = { embargo = { country = -1 country = U84 value = 1 } embargo = { country = -1 country = U84 value = 2 } } } type = embargo which = -1 where = U84 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u85" command = { trigger = { OR = { embargo = { country = -1 country = U85 value = 1 } embargo = { country = -1 country = U85 value = 2 } } } type = embargo which = -1 where = U85 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u86" command = { trigger = { OR = { embargo = { country = -1 country = U86 value = 1 } embargo = { country = -1 country = U86 value = 2 } } } type = embargo which = -1 where = U86 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u87" command = { trigger = { OR = { embargo = { country = -1 country = U87 value = 1 } embargo = { country = -1 country = U87 value = 2 } } } type = embargo which = -1 where = U87 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u88" command = { trigger = { OR = { embargo = { country = -1 country = U88 value = 1 } embargo = { country = -1 country = U88 value = 2 } } } type = embargo which = -1 where = U88 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u89" command = { trigger = { OR = { embargo = { country = -1 country = U89 value = 1 } embargo = { country = -1 country = U89 value = 2 } } } type = embargo which = -1 where = U89 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u90" command = { trigger = { OR = { embargo = { country = -1 country = U90 value = 1 } embargo = { country = -1 country = U90 value = 2 } } } type = embargo which = -1 where = U90 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u91" command = { trigger = { OR = { embargo = { country = -1 country = U91 value = 1 } embargo = { country = -1 country = U91 value = 2 } } } type = embargo which = -1 where = U91 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u92" command = { trigger = { OR = { embargo = { country = -1 country = U92 value = 1 } embargo = { country = -1 country = U92 value = 2 } } } type = embargo which = -1 where = U92 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u93" command = { trigger = { OR = { embargo = { country = -1 country = U93 value = 1 } embargo = { country = -1 country = U93 value = 2 } } } type = embargo which = -1 where = U93 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u94" command = { trigger = { OR = { embargo = { country = -1 country = U94 value = 1 } embargo = { country = -1 country = U94 value = 2 } } } type = embargo which = -1 where = U94 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u95" command = { trigger = { OR = { embargo = { country = -1 country = U95 value = 1 } embargo = { country = -1 country = U95 value = 2 } } } type = embargo which = -1 where = U95 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u96" command = { trigger = { OR = { embargo = { country = -1 country = U96 value = 1 } embargo = { country = -1 country = U96 value = 2 } } } type = embargo which = -1 where = U96 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u97" command = { trigger = { OR = { embargo = { country = -1 country = U97 value = 1 } embargo = { country = -1 country = U97 value = 2 } } } type = embargo which = -1 where = U97 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u98" command = { trigger = { OR = { embargo = { country = -1 country = U98 value = 1 } embargo = { country = -1 country = U98 value = 2 } } } type = embargo which = -1 where = U98 value = 0 } }
+    action = { name = "lifting_of_embargo_action_u99" command = { trigger = { OR = { embargo = { country = -1 country = U99 value = 1 } embargo = { country = -1 country = U99 value = 2 } } } type = embargo which = -1 where = U99 value = 0 } }
+    action = {
+        name = "lifting_of_embargo_action_do_nothing"
+        command = { }
+    }
+}
