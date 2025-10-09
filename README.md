@@ -2,11 +2,23 @@
 
 こちらは、身内での **Hearts of Iron II (HOI2)** マルチプレイのために使用する **Mod** を管理するためのリポジトリです。
 
-=======
-## 使用方法
-`misc.txt`を使って本来の`misc.txt`と差し替えてください。
-（本来の`misc.txt`はバックアップとっておいてください）
+## バージョン
+* Darkest Hour - A Hearts of Iron Game (DH) 1.05.2
+    * Light
 
+## チェックサム
+* MXBE
+
+## 使用方法
+1. `hoi2_commune_mod`フォルダを`Mods`フォルダに入れます。
+2. `settings.cfg`にてフォルダ名を設定します。
+
+```cfg:settings.cfg
+-- 前略 --
+Mods # MODDIR folder. Default is Mods
+hoi2_commune_mod # Selected mod (must be a folder into MODDIR)
+-- 後略 --
+```
 
 ## ⚠️ 編集時の重要事項 (文字コードの維持)
 

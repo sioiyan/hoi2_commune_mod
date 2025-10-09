@@ -1,0 +1,394 @@
+#;;;;;;;;;;;X
+##;;;;;;;;;;;X
+##;;;;;;;;;;;X
+##### Open this document in Excel, version 5 or later.;;;;;;;;;;;X
+##### To convert the semicolon-separated list to a normal Excel table, first click on the 'A' above to select the entire 'A' column.;;;;;;;;;;;X
+##### Select 'Data' -> 'Text to Columns' -> 'Delimited' -> 'Next';;;;;;;;;;;X
+##### Check 'Semicolon' (ONLY!) -> 'Finish';;;;;;;;;;;X
+##### Select column 'A' through 'K' (click + drag on letters above columns);;;;;;;;;;;X
+##### Right-click anywhere on the sheet (inside the selection) and select 'Column width' and set it so that only THREE columns are visible ('45' with 1024 x 768 screen resolution);;;;;;;;;;;X
+##### Right-click anywhere on the sheet again (still inside the selection) and select 'Format Cells' -> 'Alignment' -> check 'Wrap Text' + select 'Vertical: Top' -> 'OK';;;;;;;;;;;X
+##### Place the cursor in cell C1 and select 'Window' -> 'Freeze Panes' (allows you to scroll horizontally to see any language in the rightmost coulmn while still having the string names/comments and the english original text in the left and middle column;;;;;;;;;;;X
+##### CAREFULLY read the instructions in cells B18 ? B36;;;;;;;;;;;X
+##;;;;;;;;;;;X
+##;;;;;;;;;;;X
+##;NOTES TO TRANSLATORS:;;;;;;;;;;X
+##;=====================;;;;;;;;;;X
+##;;;;;;;;;;;X
+##;1) '%s' is for indicating where another string is inserted, and MAY NEVER BE REMOVED! If there are more than one '%s' in a string, they may NOT CHANGE PLACES.;;;;;;;;;;X
+##;###############################################################################################################################################################################################################################################################;;;;;;;;;;X
+##;3) '%t' is for indicating where the player's 'title' is inserted, however only in game message boxes.';;;;;;;;;;X
+##;###############################################################################################################################################################################################################################################################;;;;;;;;;;X
+##;5) A dollar sign, '$' will always automatically be replaced by the 'ducats' icon.;;;;;;;;;;X
+##;6) Any row with a '#' in the first column (column 'A') will be ignored. However, you cannot use any paragraph characters in these rows!!!;;;;;;;;;;X
+##;7) To insert a carriage return, insert a '\n' (backslash + n);;;;;;;;;;X
+##;8) No formatting can be done in this file. To change the color of a text, insert the following codes in front of the word:;;;;;;;;;;X
+##;$W = white text;;;;;;;;;;X
+##;$Y = orange text;;;;;;;;;;X
+##;###############################################################################################################################################################################################################################################################;;;;;;;;;;X
+##;###############################################################################################################################################################################################################################################################;;;;;;;;;;X
+##;10) ALL CELLS in column 'L' in this document MUST contain a character!;;;;;;;;;;X
+##;11) The LAST CELL in the 'A' column MUST contain the string '#EOF';;;;;;;;;;X
+##;12) If you want to begin a string with a ' (citation mark), you will need to type it twice (Excel will read the first one as a commentary which is not  exported into the actual text database file);;;;;;;;;;X
+##;;;;;;;;;;;X
+##;WHEN DONE: save as 'Semicolon Separated (.csv)' format, and make sure the file is called 'Text.csv'.;;;;;;;;;;X
+##;;;;;;;;;;;X
+##;NOTE: If Excel complains about an 'Error in formula' when the cell content begins with a '+' or '-' sign, type a ' (citation mark) in front of the plus or minus.;;;;;;;;;;X
+##;;;;;;;;;;;X
+##;;;;;;;;;;;X
+#  STRING NAME (do not change!);English;French;Italian;Spanish;German;Polish;Portuguese;Russian;;Extra2;X
+#  ========================;==========;==========;==========;========;==========;==========;==========;==========;;==========;X
+#LANGUAGE;English;French;Italian;Spanish;German;Polish;Portuguese;Russian;;Extra2;X
+##;;;;;;;;;;;X
+RT_USER_1;ユーザー定義;User tech component 1;;;;;;;;;X
+RT_USER_2;ユーザー定義;User tech component 2;;;;;;;;;X
+RT_USER_3;ユーザー定義;User tech component 3;;;;;;;;;X
+RT_USER_4;ユーザー定義;User tech component 4;;;;;;;;;X
+RT_USER_5;ユーザー定義;User tech component 5;;;;;;;;;X
+RT_USER_6;ユーザー定義;User tech component 6;;;;;;;;;X
+RT_USER_7;ユーザー定義;User tech component 7;;;;;;;;;X
+RT_USER_8;ユーザー定義;User tech component 8;;;;;;;;;X
+RT_USER_9;ユーザー定義;User tech component 9;;;;;;;;;X
+RT_USER_10;ユーザー定義;User tech component 10;;;;;;;;;X
+RT_USER_11;ユーザー定義;User tech component 11;;;;;;;;;X
+RT_USER_12;ユーザー定義;User tech component 12;;;;;;;;;X
+RT_USER_13;ユーザー定義;User tech component 13;;;;;;;;;X
+RT_USER_14;ユーザー定義;User tech component 14;;;;;;;;;X
+RT_USER_15;ユーザー定義;User tech component 15;;;;;;;;;X
+RT_USER_16;ユーザー定義;User tech component 16;;;;;;;;;X
+RT_USER_17;ユーザー定義 17;User tech component 17;;;;;;;;;X
+RT_USER_18;ユーザー定義 18;User tech component 18;;;;;;;;;X
+RT_USER_19;ユーザー定義 19;User tech component 19;;;;;;;;;X
+RT_USER_20;ユーザー定義 20;User tech component 20;;;;;;;;;X
+RT_USER_21;ユーザー定義 21;User tech component 21;;;;;;;;;X
+RT_USER_22;ユーザー定義 22;User tech component 22;;;;;;;;;X
+RT_USER_23;ユーザー定義 23;User tech component 23;;;;;;;;;X
+RT_USER_24;ユーザー定義 24;User tech component 24;;;;;;;;;X
+RT_USER_25;ユーザー定義 25;User tech component 25;;;;;;;;;X
+RT_USER_26;ユーザー定義 26;User tech component 26;;;;;;;;;X
+RT_USER_27;ユーザー定義 27;User tech component 27;;;;;;;;;X
+RT_USER_28;ユーザー定義 28;User tech component 28;;;;;;;;;X
+RT_USER_29;ユーザー定義 29;User tech component 29;;;;;;;;;X
+RT_USER_30;ユーザー定義 30;User tech component 30;;;;;;;;;X
+RT_USER_31;ユーザー定義 31;User tech component 31;;;;;;;;;X
+RT_USER_32;ユーザー定義 32;User tech component 32;;;;;;;;;X
+RT_USER_33;ユーザー定義 33;User tech component 33;;;;;;;;;X
+RT_USER_34;ユーザー定義 34;User tech component 34;;;;;;;;;X
+RT_USER_35;ユーザー定義 35;User tech component 35;;;;;;;;;X
+RT_USER_36;ユーザー定義 36;User tech component 36;;;;;;;;;X
+RT_USER_37;ユーザー定義 37;User tech component 37;;;;;;;;;X
+RT_USER_38;ユーザー定義 38;User tech component 38;;;;;;;;;X
+RT_USER_39;ユーザー定義 39;User tech component 39;;;;;;;;;X
+RT_USER_40;ユーザー定義 40;User tech component 40;;;;;;;;;X
+RT_USER_41;ユーザー定義 41;User tech component 41;;;;;;;;;X
+RT_USER_42;ユーザー定義 42;User tech component 42;;;;;;;;;X
+RT_USER_43;ユーザー定義 43;User tech component 43;;;;;;;;;X
+RT_USER_44;ユーザー定義 44;User tech component 44;;;;;;;;;X
+RT_USER_45;ユーザー定義 45;User tech component 45;;;;;;;;;X
+RT_USER_46;ユーザー定義 46;User tech component 46;;;;;;;;;X
+RT_USER_47;ユーザー定義 47;User tech component 47;;;;;;;;;X
+RT_USER_48;ユーザー定義 48;User tech component 48;;;;;;;;;X
+RT_USER_49;ユーザー定義 49;User tech component 49;;;;;;;;;X
+RT_USER_50;ユーザー定義 50;User tech component 50;;;;;;;;;X
+RT_USER_51;ユーザー定義 51;User tech component 51;;;;;;;;;X
+RT_USER_52;ユーザー定義 52;User tech component 52;;;;;;;;;X
+RT_USER_53;ユーザー定義 53;User tech component 53;;;;;;;;;X
+RT_USER_54;ユーザー定義 54;User tech component 54;;;;;;;;;X
+RT_USER_55;ユーザー定義 55;User tech component 55;;;;;;;;;X
+RT_USER_56;ユーザー定義 56;User tech component 56;;;;;;;;;X
+RT_USER_57;ユーザー定義 57;User tech component 57;;;;;;;;;X
+RT_USER_58;ユーザー定義 58;User tech component 58;;;;;;;;;X
+RT_USER_59;ユーザー定義 59;User tech component 59;;;;;;;;;X
+RT_USER_60;ユーザー定義 60;User tech component 60;;;;;;;;;X
+GrandOffensiveDesc;「Darkest Hour」は大規模攻勢の準備段階として、「攻勢チット」の概念を持っています。このディシジョンは莫大な物資を必要とします。莫大な物資と引き換えに短期間、様々な戦闘ボーナスが部隊に与えられます。この戦略的切り札を賢く活用しましょう。;Darkest Hour reflects the preparation of large scale offensives through the concept of 'Offensive Chits'. These decisions require the allocation of specific resources and grant various bonuses to your units for a short period of time. You should therefore use wisely this unique strategic opportunity.;;;;;;;;;X
+GrandOffensiveName;攻勢チット;Offensive Chit;;;;;;;;;X
+GrandOffensiveOverName;攻勢チット期間の終了;The Offensive Chit is over;;;;;;;;;X
+GrandOffensiveText;敵を粉砕しよう！;Let us smash our enemies!;;;;;;;;;X
+9000021desc;ディシジョン『公共事業の創成』とは、技能を持たない失業者の雇用を促進するために、国家が公共事業資金を拠出をするプログラムのことです。通常、建設現場や生活必需品の製造工場における技能不要な単純労働に従事します。費用の掛るプログラムであっても失業者を減少させることで、国民世論を満足させることができます。しかしながら、企業の国営化へのあらたな流れを作ります。;Creating public works for unemployed is an expensive program that aims at creating useful job for unskilled men. It usually involves using unskilled manual labor jobs on construction projects or in factories for the creation of basic goods, where no particular skills are required. This program, even if expensive, would result not only in reducing the unemployment and therefore pleasing the population, but creating new companies under the control of the government.;;;;;;;;;X
+9000021name;公共事業の創成;Create Public Works;;;;;;;;;X
+9000021text;公共事業は成長を与えるだろう;Public works create growth;;;;;;;;;X
+9000022desc;ディシジョン『資金調達問題』とは、国家財政の資金不足解決のために国債による借金ではなく、我が国の金融当局に紙幣増刷を要求します。しかしながら、我が国の産業や経済に影響を与えるインフレーションの増加という新たな問題が発生する恐れがあります。;Our monetary authority can print new money to solve our budget problems without having to borrow money. However, this may lead to a increase of inflation which could give some problems to our industry.;;;;;;;;;X
+9000022name;資金調達問題;Issue Currency;;;;;;;;;X
+9000022text;更なる均衡予算;A more balanced budget;;;;;;;;;X
+9000023desc;ディシジョン『通貨価値の切り下げ』とは、商品やサービスに対する代価や他国通貨との為替交換における通貨価値を減少させます。この結果、我が国の輸出産業は海外市場において更なる競争力を持つことができるようになるでしょう。;Devaluation is a reduction in the value of a currency with respect to those goods, services or other monetary units with which that currency can be exchanged. This would make our economy more competitive in foreign markets.;;;;;;;;;X
+9000023name;通貨価値の切り下げ;Money Devaluation;;;;;;;;;X
+9000023text;更なる競争力のある経済;A more competitive economy;;;;;;;;;X
+9000025desc;ディシジョン『外国人志願兵の許可』とは、我が軍の有効な労働力（人的資源）を増加させるため、外国人新兵を活用します。しかしながら、外国人新兵が我が軍に溶け込めず、さまざまな問題を引き起こすかもしれません。そのうえ、外国人兵士は我が軍の他の兵士と信頼関係が築けず、我が軍全体の士気に悪影響を与えるかもしれません。;By allowing foreign volunteers in our army, we can increase the number of recruits and the quantity of available manpower. However, this decision can also lead to problems as these foreign recruits may have troubles integrating in our armies. Moreover, as foreigners they may not be trusted by other soldiers and this could lower the morale of our units.;;;;;;;;;X
+9000025name;外国人志願兵の許可;Allow Foreign Volunteers;;;;;;;;;X
+9000025text;外人部隊万歳！;Long live the Foreign Legion!;;;;;;;;;X
+9000026a;自動車化師団;Motorized division;;;;;;;;;X
+9000026b;装甲師団;Armor division;;;;;;;;;X
+9000026c;迎撃用航空隊;Interceptors wing;;;;;;;;;X
+9000026d;戦術爆撃航空隊;Tactical bombers wing;;;;;;;;;X
+9000026desc;ディシジョン『ライセンスされたユニットの購入』とは、国産装備の代わりに他国製装備を我が国の軍隊に導入することを意味します。これは、我が国の産業が現在生産できないか、もしくは生産に多くの時間が掛る新型ユニット装備を迅速に導入する方法です。;Purchasing licensed units means equipping our armies with vehicles sold by other countries instead of those produced by our own industry. This is a quick solution to equip new units with materials that our industry is not able to build or doesn't have the time to.;;;;;;;;;X
+9000026name;ライセンスされた部隊の購入;Purchase Licensed Unit;;;;;;;;;X
+9000027desc;ディシジョン『報道検閲』とは、我が国の政府に悪影響を及ぼす恐れがある報道を規制し、国民に与える情報を検閲することができます。これは我が国の政府に対して、反乱を誘発するかもしれない報道・表現の自由を制限し、国民世論をコントロールすることができます。;We can enforce censorship in the press to hold back information from our citizens that may harm our government. Thanks to this we can exert control over the population and prevent free expression that might foment rebellion.;;;;;;;;;X
+9000027name;報道検閲;Press Censorship;;;;;;;;;X
+9000027text;新聞は反愛国的だ;Newspapers are anti-patriotic;;;;;;;;;X
+9000028desc;ディシジョン『戦争プロパガンダ』の目的は、来たるべき戦争に向けて我が国の国民世論を誘導することです。これにより、国民世論は政府を支持し、厳しい戦争に耐えるために団結するでしょう。;The aim of war propaganda is to influence the attitude of our population toward the war. This should make them stand united to support our government and endure the hardness of war.;;;;;;;;;X
+9000028name;戦争プロパガンダ;War Propaganda;;;;;;;;;X
+9000028text;団結こそ勝利！;United we will win;;;;;;;;;X
+9000029desc;Ersatz（エアザッツ）とは、ドイツ語で代用品を意味します。本来Ersatzは軍用の『合成燃料』を意味しますが、このディシジョンではエネルギー（石炭）から希少資源（希少鉱物）を合成するため、『Ersatz＝代用物質』の訳を当てています。\n現在、閣下はエネルギー（石炭）から希少資源（希少鉱物）を合成を選択できます。閣下が選択したエネルギー（石炭）量からおよそ10分の1の希少資源（希少鉱物）が得られますが、非常に高価であることに注意して下さい。また、選択肢はエネルギー（石炭）備蓄容量に従い、最大で３種類の選択肢があります。\n史実では、ドイツは石炭の自給できたが石油は自給できなかったため、ベルギウス法やフィッシャー・トロプシュ法によってガソリンや軽油類似の燃料(Ersatz)を合成し、1944年には25の工場から1日当たり12万4千バレル、年間650万トンに達する量を作り出しました。一方、日本ではドイツから技術は導入したものの触媒となる良質のクロム鋼が手に入らなかった事や、工作機械寸法加工精度がドイツより悪かった事などが原因で事故が相次ぎ、計画の1/10しか燃料(Ersatz)を合成できませんでした。なお、日独双方とも戦時下の軍事必需品としての生産であり、採算コストは完全に度外視されていました。戦後は中東で大油田が開発されため、Ersatzは採算コスト面から急速に忘れ去られていった技術です。;Instead of acquiring the materials that we need for our industry from other countries, we can choose to produce them on our own. The Ersatz Conversion is a costly process to produce materials that we need when we are facing a shortage of them.;;;;;;;;;X
+9000029name;Ersatz(代用物質)の合成;Ersatz Conversion;;;;;;;;;X
+9000030a;限定的な投資;Limited investment;;;;;;;;;X
+9000030b;十分な投資;Substantial investment;;;;;;;;;X
+9000030c;包括的な投資;Comprehensive investment;;;;;;;;;X
+9000030desc;ディシジョン『国家によるインフラへの投資』では、我が国の道路・鉄道網を拡充することができます。これは国民世論をあまり満足させることは出来ませんが、有事の際に我が国の陸軍部隊と補給物資輸送の許容限界量を増すことができるでしょう。;By investing in infrastructures, we're going to extend our road and railroad networks. This will not only help and please the population, but it will also increase our capacity of transferring men and supplies for the Army in case of war.;;;;;;;;;X
+9000030name;国家によるインフラへの投資;Invest in National Infrastructures;;;;;;;;;X
+9000031a;限定的な投資;Limited investment;;;;;;;;;X
+9000031b;十分な投資;Substantial investment;;;;;;;;;X
+9000031c;包括的な投資;Comprehensive investment;;;;;;;;;X
+9000031desc;ディシジョン『国家による研究機関への投資』とは、我が国の大学や研究機関の研究者に資金と最先端ツールを提供します。彼らへの支援は、我が国の研究開発効率を高めることになるでしょう。;By investing in our universities and research centers, we will provide our scientists with funds and state-of-the-art tools. This should help their work and increase their ability to discover new technologies.;;;;;;;;;X
+9000031name;国家による研究機関への投資;Invest in National Research;;;;;;;;;X
+9000032desc;ディシジョン『将官の粛正』とは、我々に忠実でなく信用できない我が軍の将官を解任します。最も信頼できる将官だけが、我が軍を指揮することができると我々は確信しています。国民世論の反発を受けるかもしれませんが、兵士達の士気を確実に向上させることができるでしょう。;By forcing the disloyal and unreliable officers in our army to resign, we can be sure that only the better and most trustworthy officers can lead our soldiers. This will surely raise their morale, even if we might face some resistance from the public opinion.;;;;;;;;;X
+9000032name;将官の粛正;Purge of the Army;;;;;;;;;X
+9000032text;粛正を正当化すると、最後に誰が残るのだろうか？;If the end justifies the means, what will justify the end?;;;;;;;;;X
+9000033desc;ディシジョン『兵棋演習（War Games）』とは状況を図上において想定した上で作戦行動を再現して行う軍事研究です。2個以上の対抗勢力による作戦を研究するために、地形や敵情についての定量的なデータを踏まえながら確率を活用しつつ状況を再現します。本ディシジョンは我が国の複数の将官に演習を行わせ、将官スキルの向上をはかります。ただし、閣下が特定の将官を指名することはできません。閣下はこのディシジョンを実施しますか？;We can train the officers in our Army thanks to use of war games. The simulations of war will make them discover new tricks and be ready to face setbacks and incident.;;;;;;;;;X
+9000033name;兵棋演習（War Games）;War Games;;;;;;;;;X
+9000033text;もちろん、「Darkest Hour」をプレイしよう！;Yay, let's play Darkest Hour!;;;;;;;;;X
+9000034desc;我が国は他国との外交関係を改善するため、外交活動を始めることができます。我が国の外交官は他国政府に対して我が国の立場と外交方針について理解を求める活動をするでしょう。;We can start a diplomatic campaign to raise our relations with other countries. Our diplomats will try to make them understand our point of view and our motivations.;;;;;;;;;X
+9000034name;外交活動;Diplomatic Campaign;;;;;;;;;X
+9000034text;平和が訪れる！！;We come in peace!;;;;;;;;;X
+9000036name;将官の粛正;Generals Dismissed;;;;;;;;;X
+9000037desc;『戦時国債』とは、戦時における軍事費を確保する目的で政府によって発行された債権です。戦時国債は使途を軍事費に限定した政府歳入です。国債を購入することは、国家に貢献することであると国民に理解させて下さい。このシステムは戦争勃発により、国内の過剰に加熱した経済状況から市場資金を吸収するため、インフレを抑える手段として役に立ちます。また余剰資金を一掃できるのと同時に、戦後の平時経済へ移行する際に重要な個人消費を奨励する刺激策としても機能します。戦時国債の購入奨励には、しばしば愛国心と良心を利用します。政府によって発行された戦時国債は、一般的な市場価値の債権より、低利率である傾向を持ち、さまざまな階層の全国民に対して購入を求めています。;War bonds are debt securities issued by a government for the purpose of financing military operations during times of war. War bonds generate capital for the government and make civilians feel involved in their nation's future. Exhortations to buy war bonds are often accompanied with appeals to patriotism and conscience. Government-issued war bonds tend to have a yield which is below market value and are often made available in a wide range of denominations to make them affordable to all citizens.;;;;;;;;;X
+9000037name;戦時国債;National War Bonds;;;;;;;;;X
+9000037text;勝利のために国債を買おう！;Buy Victory Bonds!;;;;;;;;;X
+lifting_of_embargo_name;国家の禁輸と技術輸出禁止を解除;Lifting of embargo;;;;;;;;;X
+lifting_of_embargo_desc;（プレイヤー用）このディシジョンでは現在行っている国家の禁輸と技術輸出禁止を解除することができます。;Lifting of embargo;;;;;;;;;X
+lifting_of_embargo_action_afg;アフガニスタンの禁輸と技術輸出禁止を解除;Lifting of embargo on Afghanistan;;;;;;;;;X
+lifting_of_embargo_action_alb;アルバニアの禁輸と技術輸出禁止を解除;Lifting of embargo on Albania;;;;;;;;;X
+lifting_of_embargo_action_alg;アルジェリアの禁輸と技術輸出禁止を解除;Lifting of embargo on Algeria;;;;;;;;;X
+lifting_of_embargo_action_ang;アンゴラの禁輸と技術輸出禁止を解除;Lifting of embargo on Angola;;;;;;;;;X
+lifting_of_embargo_action_ara;アラブ連邦の禁輸と技術輸出禁止を解除;Lifting of embargo on Arab Federation;;;;;;;;;X
+lifting_of_embargo_action_arg;アルゼンチンの禁輸と技術輸出禁止を解除;Lifting of embargo on Argentina;;;;;;;;;X
+lifting_of_embargo_action_arm;アルメニアの禁輸と技術輸出禁止を解除;Lifting of embargo on Armenia;;;;;;;;;X
+lifting_of_embargo_action_ast;オーストラリアの禁輸と技術輸出禁止を解除;Lifting of embargo on Australia;;;;;;;;;X
+lifting_of_embargo_action_aus;オーストリアの禁輸と技術輸出禁止を解除;Lifting of embargo on Austria;;;;;;;;;X
+lifting_of_embargo_action_azb;アゼルバイジャンの禁輸と技術輸出禁止を解除;Lifting of embargo on Azerbaijan;;;;;;;;;X
+lifting_of_embargo_action_bel;ベルギーの禁輸と技術輸出禁止を解除;Lifting of embargo on Belgium;;;;;;;;;X
+lifting_of_embargo_action_ben;ベナン＝サヘルの禁輸と技術輸出禁止を解除;Lifting of embargo on Benin-Sahel;;;;;;;;;X
+lifting_of_embargo_action_blr;ベラルーシの禁輸と技術輸出禁止を解除;Lifting of embargo on Byelorussia;;;;;;;;;X
+lifting_of_embargo_action_bol;ボリビアの禁輸と技術輸出禁止を解除;Lifting of embargo on Bolivia;;;;;;;;;X
+lifting_of_embargo_action_bos;ボスニアの禁輸と技術輸出禁止を解除;Lifting of embargo on Bosnia;;;;;;;;;X
+lifting_of_embargo_action_bra;ブラジルの禁輸と技術輸出禁止を解除;Lifting of embargo on Brazil;;;;;;;;;X
+lifting_of_embargo_action_bru;ブルネイの禁輸と技術輸出禁止を解除;Lifting of embargo on Brunei;;;;;;;;;X
+lifting_of_embargo_action_bul;ブルガリアの禁輸と技術輸出禁止を解除;Lifting of embargo on Bulgaria;;;;;;;;;X
+lifting_of_embargo_action_bur;ビルマの禁輸と技術輸出禁止を解除;Lifting of embargo on Burma;;;;;;;;;X
+lifting_of_embargo_action_cal;カリフォルニアの禁輸と技術輸出禁止を解除;Lifting of embargo on California;;;;;;;;;X
+lifting_of_embargo_action_cam;カメルーンの禁輸と技術輸出禁止を解除;Lifting of embargo on Cameroon;;;;;;;;;X
+lifting_of_embargo_action_can;カナダの禁輸と技術輸出禁止を解除;Lifting of embargo on Canada;;;;;;;;;X
+lifting_of_embargo_action_cgx;広西軍閥の禁輸と技術輸出禁止を解除;Lifting of embargo on Guangxi Clique;;;;;;;;;X
+lifting_of_embargo_action_chc;中国（共産党）の禁輸と技術輸出禁止を解除;Lifting of embargo on Communist China;;;;;;;;;X
+lifting_of_embargo_action_chi;中華民国の禁輸と技術輸出禁止を解除;Lifting of embargo on Nationalist China;;;;;;;;;X
+lifting_of_embargo_action_chl;チリの禁輸と技術輸出禁止を解除;Lifting of embargo on Chile;;;;;;;;;X
+lifting_of_embargo_action_cmb;カンボジアの禁輸と技術輸出禁止を解除;Lifting of embargo on Cambodia;;;;;;;;;X
+lifting_of_embargo_action_col;コロンビアの禁輸と技術輸出禁止を解除;Lifting of embargo on Colombia;;;;;;;;;X
+lifting_of_embargo_action_con;コンゴの禁輸と技術輸出禁止を解除;Lifting of embargo on Congo;;;;;;;;;X
+lifting_of_embargo_action_cos;コスタリカの禁輸と技術輸出禁止を解除;Lifting of embargo on Costa Rica;;;;;;;;;X
+lifting_of_embargo_action_cro;クロアチアの禁輸と技術輸出禁止を解除;Lifting of embargo on Croatia;;;;;;;;;X
+lifting_of_embargo_action_csa;アメリカ連合国の禁輸と技術輸出禁止を解除;Lifting of embargo on Confederate States;;;;;;;;;X
+lifting_of_embargo_action_csx;山西軍閥の禁輸と技術輸出禁止を解除;Lifting of embargo on Shanxi;;;;;;;;;X
+lifting_of_embargo_action_cub;キューバの禁輸と技術輸出禁止を解除;Lifting of embargo on Cuba;;;;;;;;;X
+lifting_of_embargo_action_cxb;西北三馬軍閥の禁輸と技術輸出禁止を解除;Lifting of embargo on Xibei San Ma;;;;;;;;;X
+lifting_of_embargo_action_cyn;雲南軍閥の禁輸と技術輸出禁止を解除;Lifting of embargo on Yunnan;;;;;;;;;X
+lifting_of_embargo_action_cyp;キプロスの禁輸と技術輸出禁止を解除;Lifting of embargo on Cyprus;;;;;;;;;X
+lifting_of_embargo_action_cze;チェコスロバキアの禁輸と技術輸出禁止を解除;Lifting of embargo on Czechoslovakia;;;;;;;;;X
+lifting_of_embargo_action_ddr;ドイツ民主共和国の禁輸と技術輸出禁止を解除;Lifting of embargo on DDR;;;;;;;;;X
+lifting_of_embargo_action_den;デンマークの禁輸と技術輸出禁止を解除;Lifting of embargo on Denmark;;;;;;;;;X
+lifting_of_embargo_action_dfr;ドイツ連邦共和国の禁輸と技術輸出禁止を解除;Lifting of embargo on FRG;;;;;;;;;X
+lifting_of_embargo_action_eaf;東アフリカ連合の禁輸と技術輸出禁止を解除;Lifting of embargo on East African Union;;;;;;;;;X
+lifting_of_embargo_action_ecu;エクアドルの禁輸と技術輸出禁止を解除;Lifting of embargo on Ecuador;;;;;;;;;X
+lifting_of_embargo_action_egy;エジプトの禁輸と技術輸出禁止を解除;Lifting of embargo on Egypt;;;;;;;;;X
+lifting_of_embargo_action_eng;イギリスの禁輸と技術輸出禁止を解除;Lifting of embargo on UK;;;;;;;;;X
+lifting_of_embargo_action_eqa;赤道アフリカの禁輸と技術輸出禁止を解除;Lifting of embargo on Equatorial Africa;;;;;;;;;X
+lifting_of_embargo_action_est;エストニアの禁輸と技術輸出禁止を解除;Lifting of embargo on Estonia;;;;;;;;;X
+lifting_of_embargo_action_eth;エチオピアの禁輸と技術輸出禁止を解除;Lifting of embargo on Ethiopia;;;;;;;;;X
+lifting_of_embargo_action_eus;エウスカディの禁輸と技術輸出禁止を解除;Lifting of embargo on Euskadi;;;;;;;;;X
+lifting_of_embargo_action_fin;フィンランドの禁輸と技術輸出禁止を解除;Lifting of embargo on Finland;;;;;;;;;X
+lifting_of_embargo_action_fla;フランドルの禁輸と技術輸出禁止を解除;Lifting of embargo on Flanders;;;;;;;;;X
+lifting_of_embargo_action_fra;フランスの禁輸と技術輸出禁止を解除;Lifting of embargo on France;;;;;;;;;X
+lifting_of_embargo_action_gab;ガボンの禁輸と技術輸出禁止を解除;Lifting of embargo on Gabon;;;;;;;;;X
+lifting_of_embargo_action_geo;グルジアの禁輸と技術輸出禁止を解除;Lifting of embargo on Georgia;;;;;;;;;X
+lifting_of_embargo_action_ger;ドイツの禁輸と技術輸出禁止を解除;Lifting of embargo on Germany;;;;;;;;;X
+lifting_of_embargo_action_gld;ガーナの禁輸と技術輸出禁止を解除;Lifting of embargo on Ghana;;;;;;;;;X
+lifting_of_embargo_action_gre;ギリシャの禁輸と技術輸出禁止を解除;Lifting of embargo on Greece;;;;;;;;;X
+lifting_of_embargo_action_gua;グアテマラの禁輸と技術輸出禁止を解除;Lifting of embargo on Guatemala;;;;;;;;;X
+lifting_of_embargo_action_gui;ギニアの禁輸と技術輸出禁止を解除;Lifting of embargo on Guinea;;;;;;;;;X
+lifting_of_embargo_action_guy;ガイアナの禁輸と技術輸出禁止を解除;Lifting of embargo on Guyana;;;;;;;;;X
+lifting_of_embargo_action_hol;オランダの禁輸と技術輸出禁止を解除;Lifting of embargo on Netherlands;;;;;;;;;X
+lifting_of_embargo_action_hon;ホンジュラスの禁輸と技術輸出禁止を解除;Lifting of embargo on Honduras;;;;;;;;;X
+lifting_of_embargo_action_hun;ハンガリーの禁輸と技術輸出禁止を解除;Lifting of embargo on Hungary;;;;;;;;;X
+lifting_of_embargo_action_icl;アイスランドの禁輸と技術輸出禁止を解除;Lifting of embargo on Iceland;;;;;;;;;X
+lifting_of_embargo_action_idc;インドシナの禁輸と技術輸出禁止を解除;Lifting of embargo on Indochina;;;;;;;;;X
+lifting_of_embargo_action_ind;インドの禁輸と技術輸出禁止を解除;Lifting of embargo on India;;;;;;;;;X
+lifting_of_embargo_action_ino;インドネシアの禁輸と技術輸出禁止を解除;Lifting of embargo on Indonesia;;;;;;;;;X
+lifting_of_embargo_action_ire;アイルランドの禁輸と技術輸出禁止を解除;Lifting of embargo on Ireland;;;;;;;;;X
+lifting_of_embargo_action_irq;イラクの禁輸と技術輸出禁止を解除;Lifting of embargo on Iraq;;;;;;;;;X
+lifting_of_embargo_action_isr;イスラエルの禁輸と技術輸出禁止を解除;Lifting of embargo on Israel;;;;;;;;;X
+lifting_of_embargo_action_ita;イタリアの禁輸と技術輸出禁止を解除;Lifting of embargo on Italy;;;;;;;;;X
+lifting_of_embargo_action_jap;日本の禁輸と技術輸出禁止を解除;Lifting of embargo on Japan;;;;;;;;;X
+lifting_of_embargo_action_jor;ヨルダンの禁輸と技術輸出禁止を解除;Lifting of embargo on Jordan;;;;;;;;;X
+lifting_of_embargo_action_kaz;カザフスタンの禁輸と技術輸出禁止を解除;Lifting of embargo on Kazakhstan;;;;;;;;;X
+lifting_of_embargo_action_kor;韓国の禁輸と技術輸出禁止を解除;Lifting of embargo on Korea;;;;;;;;;X
+lifting_of_embargo_action_kur;クルディスタンの禁輸と技術輸出禁止を解除;Lifting of embargo on Kurdistan;;;;;;;;;X
+lifting_of_embargo_action_kyg;キルギスタンの禁輸と技術輸出禁止を解除;Lifting of embargo on Kyrgyzstan;;;;;;;;;X
+lifting_of_embargo_action_lao;ラオスの禁輸と技術輸出禁止を解除;Lifting of embargo on Laos;;;;;;;;;X
+lifting_of_embargo_action_lat;ラトビアの禁輸と技術輸出禁止を解除;Lifting of embargo on Latvia;;;;;;;;;X
+lifting_of_embargo_action_lby;リビアの禁輸と技術輸出禁止を解除;Lifting of embargo on Libya;;;;;;;;;X
+lifting_of_embargo_action_leb;レバノンの禁輸と技術輸出禁止を解除;Lifting of embargo on Lebanon;;;;;;;;;X
+lifting_of_embargo_action_lit;リトアニアの禁輸と技術輸出禁止を解除;Lifting of embargo on Lithuania;;;;;;;;;X
+lifting_of_embargo_action_lux;ルクセンブルクの禁輸と技術輸出禁止を解除;Lifting of embargo on Luxemburg;;;;;;;;;X
+lifting_of_embargo_action_mad;マダガスカルの禁輸と技術輸出禁止を解除;Lifting of embargo on Madagascar;;;;;;;;;X
+lifting_of_embargo_action_mal;マリ連邦の禁輸と技術輸出禁止を解除;Lifting of embargo on Union of Mali;;;;;;;;;X
+lifting_of_embargo_action_man;満州国の禁輸と技術輸出禁止を解除;Lifting of embargo on Manchukuo;;;;;;;;;X
+lifting_of_embargo_action_men;蒙古国の禁輸と技術輸出禁止を解除;Lifting of embargo on Mengkukuo;;;;;;;;;X
+lifting_of_embargo_action_mex;メキシコの禁輸と技術輸出禁止を解除;Lifting of embargo on Mexico;;;;;;;;;X
+lifting_of_embargo_action_mly;マレーシアの禁輸と技術輸出禁止を解除;Lifting of embargo on Malaysia;;;;;;;;;X
+lifting_of_embargo_action_mon;モンゴルの禁輸と技術輸出禁止を解除;Lifting of embargo on Mongolia;;;;;;;;;X
+lifting_of_embargo_action_mor;モロッコの禁輸と技術輸出禁止を解除;Lifting of embargo on Morocco;;;;;;;;;X
+lifting_of_embargo_action_moz;モザンビークの禁輸と技術輸出禁止を解除;Lifting of embargo on Mozambique;;;;;;;;;X
+lifting_of_embargo_action_mtn;モンテネグロの禁輸と技術輸出禁止を解除;Lifting of embargo on Montenegro;;;;;;;;;X
+lifting_of_embargo_action_nam;ナミビアの禁輸と技術輸出禁止を解除;Lifting of embargo on Namibia;;;;;;;;;X
+lifting_of_embargo_action_nic;ニカラグアの禁輸と技術輸出禁止を解除;Lifting of embargo on Nicaragua;;;;;;;;;X
+lifting_of_embargo_action_nig;ナイジェリアの禁輸と技術輸出禁止を解除;Lifting of embargo on Nigeria;;;;;;;;;X
+lifting_of_embargo_action_nor;ノルウェーの禁輸と技術輸出禁止を解除;Lifting of embargo on Norway;;;;;;;;;X
+lifting_of_embargo_action_nzl;ニュージーランドの禁輸と技術輸出禁止を解除;Lifting of embargo on New Zealand;;;;;;;;;X
+lifting_of_embargo_action_omn;オマーンの禁輸と技術輸出禁止を解除;Lifting of embargo on Oman;;;;;;;;;X
+lifting_of_embargo_action_ott;オスマントルコの禁輸と技術輸出禁止を解除;Lifting of embargo on Ottoman Empire;;;;;;;;;X
+lifting_of_embargo_action_pak;パキスタンの禁輸と技術輸出禁止を解除;Lifting of embargo on Pakistan;;;;;;;;;X
+lifting_of_embargo_action_pal;パレスチナの禁輸と技術輸出禁止を解除;Lifting of embargo on Palestine;;;;;;;;;X
+lifting_of_embargo_action_pan;パナマの禁輸と技術輸出禁止を解除;Lifting of embargo on Panama;;;;;;;;;X
+lifting_of_embargo_action_par;パラグアイの禁輸と技術輸出禁止を解除;Lifting of embargo on Paraguay;;;;;;;;;X
+lifting_of_embargo_action_per;ペルシャの禁輸と技術輸出禁止を解除;Lifting of embargo on Persia;;;;;;;;;X
+lifting_of_embargo_action_phi;フィリピンの禁輸と技術輸出禁止を解除;Lifting of embargo on Philippines;;;;;;;;;X
+lifting_of_embargo_action_pol;ポーランドの禁輸と技術輸出禁止を解除;Lifting of embargo on Poland;;;;;;;;;X
+lifting_of_embargo_action_por;ポルトガルの禁輸と技術輸出禁止を解除;Lifting of embargo on Portugal;;;;;;;;;X
+lifting_of_embargo_action_pri;プリモルスクの禁輸と技術輸出禁止を解除;Lifting of embargo on Primorsk;;;;;;;;;X
+lifting_of_embargo_action_prk;朝鮮人民共和国の禁輸と技術輸出禁止を解除;Lifting of embargo on People's Republic of Korea;;;;;;;;;X
+lifting_of_embargo_action_pru;ペルーの禁輸と技術輸出禁止を解除;Lifting of embargo on Peru;;;;;;;;;X
+lifting_of_embargo_action_que;ケベックの禁輸と技術輸出禁止を解除;Lifting of embargo on Quebec;;;;;;;;;X
+lifting_of_embargo_action_rho;ローデシア・ニヤサランド連邦の禁輸と技術輸出禁止を解除;Lifting of embargo on Rhodesia and Nyasaland;;;;;;;;;X
+lifting_of_embargo_action_rom;ルーマニアの禁輸と技術輸出禁止を解除;Lifting of embargo on Romania;;;;;;;;;X
+lifting_of_embargo_action_rsi;イタリア社会共和国の禁輸と技術輸出禁止を解除;Lifting of embargo on Italian Social Republic;;;;;;;;;X
+lifting_of_embargo_action_rus;ロシアの禁輸と技術輸出禁止を解除;Lifting of embargo on Russia;;;;;;;;;X
+lifting_of_embargo_action_saf;南アフリカの禁輸と技術輸出禁止を解除;Lifting of embargo on South Africa;;;;;;;;;X
+lifting_of_embargo_action_sal;エルサルバドルの禁輸と技術輸出禁止を解除;Lifting of embargo on El Salvador;;;;;;;;;X
+lifting_of_embargo_action_sar;サラワクの禁輸と技術輸出禁止を解除;Lifting of embargo on Sarawak;;;;;;;;;X
+lifting_of_embargo_action_sau;サウジアラビアの禁輸と技術輸出禁止を解除;Lifting of embargo on Saudi Arabia;;;;;;;;;X
+lifting_of_embargo_action_sca;スカンジナビアの禁輸と技術輸出禁止を解除;Lifting of embargo on Scandinavia;;;;;;;;;X
+lifting_of_embargo_action_sch;スイスの禁輸と技術輸出禁止を解除;Lifting of embargo on Switzerland;;;;;;;;;X
+lifting_of_embargo_action_sco;スコットランドの禁輸と技術輸出禁止を解除;Lifting of embargo on Scotland;;;;;;;;;X
+lifting_of_embargo_action_ser;セルビアの禁輸と技術輸出禁止を解除;Lifting of embargo on Serbia;;;;;;;;;X
+lifting_of_embargo_action_sia;シャムの禁輸と技術輸出禁止を解除;Lifting of embargo on Siam;;;;;;;;;X
+lifting_of_embargo_action_sib;シベリアの禁輸と技術輸出禁止を解除;Lifting of embargo on Siberia;;;;;;;;;X
+lifting_of_embargo_action_sie;シエラレオネの禁輸と技術輸出禁止を解除;Lifting of embargo on Sierra Leone;;;;;;;;;X
+lifting_of_embargo_action_sik;新彊軍閥の禁輸と技術輸出禁止を解除;Lifting of embargo on Sinkiang;;;;;;;;;X
+lifting_of_embargo_action_slo;スロバキアの禁輸と技術輸出禁止を解除;Lifting of embargo on Slovakia;;;;;;;;;X
+lifting_of_embargo_action_slv;スロベニアの禁輸と技術輸出禁止を解除;Lifting of embargo on Slovenia;;;;;;;;;X
+lifting_of_embargo_action_som;ソマリアの禁輸と技術輸出禁止を解除;Lifting of embargo on Somalia;;;;;;;;;X
+lifting_of_embargo_action_sov;ソビエト連邦の禁輸と技術輸出禁止を解除;Lifting of embargo on Soviet Union;;;;;;;;;X
+lifting_of_embargo_action_spa;スペイン（国粋派）の禁輸と技術輸出禁止を解除;Lifting of embargo on Nationalist Spain;;;;;;;;;X
+lifting_of_embargo_action_spr;スペイン（共和派）の禁輸と技術輸出禁止を解除;Lifting of embargo on Republican Spain;;;;;;;;;X
+lifting_of_embargo_action_sud;スーダンの禁輸と技術輸出禁止を解除;Lifting of embargo on Sudan;;;;;;;;;X
+lifting_of_embargo_action_swe;スウェーデンの禁輸と技術輸出禁止を解除;Lifting of embargo on Sweden;;;;;;;;;X
+lifting_of_embargo_action_syr;シリアの禁輸と技術輸出禁止を解除;Lifting of embargo on Syria;;;;;;;;;X
+lifting_of_embargo_action_taj;タジキスタンの禁輸と技術輸出禁止を解除;Lifting of embargo on Tajikistan;;;;;;;;;X
+lifting_of_embargo_action_tan;タンヌ・トゥヴァの禁輸と技術輸出禁止を解除;Lifting of embargo on Tannu Tuva;;;;;;;;;X
+lifting_of_embargo_action_tex;テキサスの禁輸と技術輸出禁止を解除;Lifting of embargo on Texas;;;;;;;;;X
+lifting_of_embargo_action_tra;トランスウラル共和国の禁輸と技術輸出禁止を解除;Lifting of embargo on Transural Republic;;;;;;;;;X
+lifting_of_embargo_action_trk;トルクメニスタンの禁輸と技術輸出禁止を解除;Lifting of embargo on Turkmenistan;;;;;;;;;X
+lifting_of_embargo_action_tun;チュニジアの禁輸と技術輸出禁止を解除;Lifting of embargo on Tunisia;;;;;;;;;X
+lifting_of_embargo_action_tur;トルコの禁輸と技術輸出禁止を解除;Lifting of embargo on Turkey;;;;;;;;;X
+lifting_of_embargo_action_ukr;ウクライナの禁輸と技術輸出禁止を解除;Lifting of embargo on Ukraine;;;;;;;;;X
+lifting_of_embargo_action_uru;ウルグアイの禁輸と技術輸出禁止を解除;Lifting of embargo on Uruguay;;;;;;;;;X
+lifting_of_embargo_action_usa;アメリカ合衆国の禁輸と技術輸出禁止を解除;Lifting of embargo on USA;;;;;;;;;X
+lifting_of_embargo_action_uzb;ウズベキスタンの禁輸と技術輸出禁止を解除;Lifting of embargo on Uzbekistan;;;;;;;;;X
+lifting_of_embargo_action_ven;ベネズエラの禁輸と技術輸出禁止を解除;Lifting of embargo on Venezuela;;;;;;;;;X
+lifting_of_embargo_action_vie;ベトナム国の禁輸と技術輸出禁止を解除;Lifting of embargo on Nationalist Vietnam;;;;;;;;;X
+lifting_of_embargo_action_wll;ワロンの禁輸と技術輸出禁止を解除;Lifting of embargo on Wallonia;;;;;;;;;X
+lifting_of_embargo_action_yem;イエメンの禁輸と技術輸出禁止を解除;Lifting of embargo on Yemen;;;;;;;;;X
+lifting_of_embargo_action_yug;ユーゴスラビアの禁輸と技術輸出禁止を解除;Lifting of embargo on Yugoslavia;;;;;;;;;X
+lifting_of_embargo_action_u01;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u02;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u03;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u04;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u08;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u09;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u10;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u11;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u12;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u13;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u14;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u15;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u16;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u17;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u18;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u19;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u20;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u21;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u22;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u26;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u27;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u28;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u29;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u30;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u31;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u32;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u33;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u34;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u35;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u40;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u41;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u42;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u43;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u44;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u45;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u46;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u47;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u48;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u49;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u50;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u51;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u52;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u53;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u54;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u55;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u56;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u67;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_u69;ユーザー定義用の禁輸と技術輸出禁止を解除;Lifting of embargo on User Defined;;;;;;;;;X
+lifting_of_embargo_action_utc;コサック連邦の禁輸と技術輸出禁止を解除;Lifting of embargo on The Cossacks;;;;;;;;;X
+lifting_of_embargo_action_uer;ロシア帝国の禁輸と技術輸出禁止を解除;Lifting of embargo on Empire of Russia;;;;;;;;;X
+lifting_of_embargo_action_upe;ペルシャ共和国の禁輸と技術輸出禁止を解除;Lifting of embargo on Republic of Persia;;;;;;;;;X
+lifting_of_embargo_action_u70;ウガンダの禁輸と技術輸出禁止を解除;Lifting of embargo on Uganda;;;;;;;;;X
+lifting_of_embargo_action_u71;北アイルランドの禁輸と技術輸出禁止を解除;Lifting of embargo on Northern Ireland;;;;;;;;;X
+lifting_of_embargo_action_u72;ベトナム民主共和国の禁輸と技術輸出禁止を解除;Lifting of embargo on Communist Vietnam;;;;;;;;;X
+lifting_of_embargo_action_u73;イングランドの禁輸と技術輸出禁止を解除;Lifting of embargo on England;;;;;;;;;X
+lifting_of_embargo_action_u74;北中国の禁輸と技術輸出禁止を解除;Lifting of embargo on Northern China;;;;;;;;;X
+lifting_of_embargo_action_u75;シンガポールの禁輸と技術輸出禁止を解除;Lifting of embargo on Singapore;;;;;;;;;X
+lifting_of_embargo_action_u76;ウェールズの禁輸と技術輸出禁止を解除;Lifting of embargo on Wales;;;;;;;;;X
+lifting_of_embargo_action_u77;グランコロンビアの禁輸と技術輸出禁止を解除;Lifting of embargo on Greater Colombia;;;;;;;;;X
+lifting_of_embargo_action_u78;中央アメリカの禁輸と技術輸出禁止を解除;Lifting of embargo on Central America;;;;;;;;;X
+lifting_of_embargo_action_u79;西インド諸島の禁輸と技術輸出禁止を解除;Lifting of embargo on West Indies;;;;;;;;;X
+lifting_of_embargo_action_u80;カシミールの禁輸と技術輸出禁止を解除;Lifting of embargo on Kashmir;;;;;;;;;X
+lifting_of_embargo_action_u81;オートボルタの禁輸と技術輸出禁止を解除;Lifting of embargo on Upper Volta;;;;;;;;;X
+lifting_of_embargo_action_u82;中央アフリカの禁輸と技術輸出禁止を解除;Lifting of embargo on Central Africa;;;;;;;;;X
+lifting_of_embargo_action_u83;セイロンの禁輸と技術輸出禁止を解除;Lifting of embargo on Ceylon;;;;;;;;;X
+lifting_of_embargo_action_u84;チャドの禁輸と技術輸出禁止を解除;Lifting of embargo on Chad;;;;;;;;;X
+lifting_of_embargo_action_u85;コンゴ＝ブラザヴィルの禁輸と技術輸出禁止を解除;Lifting of embargo on Congo-Brazzaville;;;;;;;;;X
+lifting_of_embargo_action_u86;ガンビアの禁輸と技術輸出禁止を解除;Lifting of embargo on Gambia;;;;;;;;;X
+lifting_of_embargo_action_u87;中華民国南京国民政府の禁輸と技術輸出禁止を解除;Lifting of embargo on China-Nanking;;;;;;;;;X
+lifting_of_embargo_action_u88;コートジボワールの禁輸と技術輸出禁止を解除;Lifting of embargo on Ivory Coast;;;;;;;;;X
+lifting_of_embargo_action_u89;ジャマイカの禁輸と技術輸出禁止を解除;Lifting of embargo on Jamaica;;;;;;;;;X
+lifting_of_embargo_action_u90;ケニアの禁輸と技術輸出禁止を解除;Lifting of embargo on Kenya;;;;;;;;;X
+lifting_of_embargo_action_u91;クウェートの禁輸と技術輸出禁止を解除;Lifting of embargo on Kuwait;;;;;;;;;X
+lifting_of_embargo_action_u92;マルタの禁輸と技術輸出禁止を解除;Lifting of embargo on Malta;;;;;;;;;X
+lifting_of_embargo_action_u93;モーリタニアの禁輸と技術輸出禁止を解除;Lifting of embargo on Mauritania;;;;;;;;;X
+lifting_of_embargo_action_u94;ニジェールの禁輸と技術輸出禁止を解除;Lifting of embargo on Niger;;;;;;;;;X
+lifting_of_embargo_action_u95;ルワンダの禁輸と技術輸出禁止を解除;Lifting of embargo on Rwanda;;;;;;;;;X
+lifting_of_embargo_action_u96;セネガルの禁輸と技術輸出禁止を解除;Lifting of embargo on Senegal;;;;;;;;;X
+lifting_of_embargo_action_u97;タンガニーカの禁輸と技術輸出禁止を解除;Lifting of embargo on Tanganyika;;;;;;;;;X
+lifting_of_embargo_action_u98;トリニダード・トバゴの禁輸と技術輸出禁止を解除;Lifting of embargo on Trinidad and Tobago;;;;;;;;;X
+lifting_of_embargo_action_u99;トーゴの禁輸と技術輸出禁止を解除;Lifting of embargo on Togo;;;;;;;;;X
+lifting_of_embargo_action_do_nothing;何もしない;Do Nothing;;;;;;;;;X
+#EOF;;;;;;;;;;;X
+#EOF;;;;;;;;;;;X
